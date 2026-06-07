@@ -10,5 +10,5 @@ To review the project phases and code directly, explore the dedicated folders:
 
 Please refer directly to the dedicated `README.md` files for the complete engineering specifications and future improvements:
 
-*   **Layer Architecture Design & Decisions:** `/dbt/README.md`
+*   **Layer Architecture Design & Decisions:** `/dbt/models//README.md`
 *   **Business Intelligence & Dashboard:** `/dashboard/README.md`
