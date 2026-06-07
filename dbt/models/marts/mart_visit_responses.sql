@@ -4,7 +4,7 @@ with staging_responses as (
     select * from {{ ref('stg_responses') }}),
 
 dim_visit as (
-    select * from {{ ref('stg_visits') }} )
+    select * from {{ ref('stg_visits') }} ),
 
 dim_question as (
     select * from {{ ref('stg_questions') }}),
@@ -44,6 +44,7 @@ dim_pos as (
 select
     -- Keys & Metrics from the responses table
     sr.answer_id,
+    sr.expected_answer,
     sr.visit_id,
     sr.question_id,
     sr.question_type,
