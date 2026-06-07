@@ -1,0 +1,649 @@
+question_id,campaign_id,campaign_code,question_code,question_name,question_type,question_category,question_order,question_is_highlighted,image_associated,created_at,updated_at_sys
+1,1,CAM00001,Q00001,"En caso de hacer una mejora en Strepsils/Strefen, indícalo",M,2. Visibilidad,1,False,False,2025-09-30,2026-01-24
+2,1,CAM00001,Q00002,"En caso de hacer una mejora en Nurofen, indícalo",M,2. Visibilidad,2,False,False,2025-09-30,2025-10-25
+3,1,CAM00001,Q00003,Indica el nº de facings de Reflex Spray,S,2. Visibilidad,3,False,True,2025-09-30,2026-03-25
+4,1,CAM00001,Q00004,¿Se ha realizado toda la instalación del vinilo a medida?,S,2.Visita,4,False,True,2025-09-30,2026-04-09
+5,1,CAM00001,Q00005,Que producto en concreto?,T,1. Visita,5,False,False,2025-09-30,2025-11-01
+6,1,CAM00001,Q00006,Indica el nº de facings de Nurofen,S,2. Visibilidad,6,True,False,2025-09-30,2026-03-03
+7,1,CAM00001,Q00007,"En caso de hacer una mejora en Gaviscon, indícalo",M,2. Visibilidad,7,False,True,2025-09-30,2026-03-18
+8,1,CAM00001,Q00008,Indica el nº de facings de Reflex Gel,S,2. Visibilidad,8,False,True,2025-09-30,2026-04-14
+9,1,CAM00001,Q00009,Nombre de la persona formada,T,1. Visita,9,True,False,2025-09-30,2026-03-18
+10,1,CAM00001,Q00010,Indica el nº de facings de Gaviscon,,2. Visibilidad,10,False,False,2025-09-30,2025-12-29
+11,1,CAM00001,,Indica el nº de facings de Strepsils/Strefen,S,2. Visibilidad,11,False,True,2025-09-30,2025-11-06
+12,1,CAM00001,Q00012,Tipo de farmacia,,1. Visita,12,False,False,2025-09-30,2026-01-16
+13,1,CAM00001,Q00013,HORARIO,T,1.Info,13,False,False,2025-09-30,2026-03-02
+14,2,CAM00002,,Tipo de farmacia,S,1. Visita,1,False,False,2025-12-15,2026-03-05
+15,2,CAM00002,Q00015,La farmacia quiere realizar pedido,S,1. Visita,2,True,False,2025-12-15,2026-01-19
+16,2,CAM00002,Q00016,Indica tiempo de la visita (en min),N,1. Visita,3,False,False,2025-12-15,2026-03-20
+17,2,CAM00002,Q00017,OBSERV VISITA,T,1.Info,4,True,True,2025-12-15,2025-11-22
+18,2,CAM00002,Q00018,"En caso de hacer una mejora en Gaviscon, indícalo",M,2. Visibilidad,5,False,False,2025-12-15,2025-12-23
+19,3,CAM00003,Q00019,Indica tipo de visita,S,1. Visita,1,False,True,2025-10-28,2026-01-10
+20,3,CAM00003,Q00020,Indica el nº de facings de Gavidigest,S,,2,True,False,2025-10-28,2026-02-25
+21,3,CAM00003,Q00021,CONTACTO VISITA,T,1.Info,3,False,False,2025-10-28,2025-10-30
+22,3,CAM00003,Q00022,,S,2. Visibilidad,4,False,False,2025-10-28,2026-01-01
+23,3,CAM00003,Q00023,Indica tiempo de la visita (en min),N,1. Visita,5,False,False,2025-10-28,2025-10-21
+24,4,CAM00004,Q00024,Nombre de la persona formada,T,1. Visita,1,False,True,2025-10-09,2025-10-27
+25,4,CAM00004,Q00025,CONTACTO VISITA,T,1.Info,2,False,False,2025-10-09,2025-10-20
+26,4,CAM00004,Q00026,Que producto en concreto?,T,1. Visita,3,False,False,2025-10-09,2026-02-22
+27,4,CAM00004,Q00027,Núm. de personas formadas,N,1. Visita,4,False,True,2025-10-09,2026-01-21
+28,4,CAM00004,Q00028,OBSERV VISITA,T,1.Info,5,False,False,2025-10-09,2025-10-15
+29,4,CAM00004,Q00029,Indica tiempo de la visita (en min),N,1. Visita,6,False,True,2025-10-09,2025-10-15
+30,4,CAM00004,Q00030,Resultado de la formación,S,1. Visita,7,False,False,2025-10-09,2026-02-26
+31,4,CAM00004,Q00031,Indica el nº de facings de Reflex Gel,S,2. Visibilidad,8,False,False,2025-10-09,2026-03-04
+32,4,CAM00004,Q00032,Cargo de la persona formada,S,,9,True,False,2025-10-09,2026-04-01
+33,4,CAM00004,Q00033,"En caso de hacer una mejora en Nurofen, indícalo",M,2. Visibilidad,10,False,False,2025-10-09,2026-01-21
+34,5,CAM00005,Q00034,Indica el nº de facings de Reflex Gel,S,2. Visibilidad,1,True,False,2026-01-01,2026-03-23
+35,5,CAM00005,Q00035,HORARIO,T,1.Info,2,False,False,2026-01-01,2025-10-21
+36,5,CAM00005,Q00036,"En caso de hacer una mejora en Gaviscon, indícalo",M,2. Visibilidad,3,False,True,2026-01-01,2026-03-02
+37,5,CAM00005,Q00037,Indica tiempo de la visita (en min),N,1. Visita,4,False,True,2026-01-01,2026-03-21
+38,5,CAM00005,Q00038,Indica de qué marca,M,1. Visita,5,False,False,2026-01-01,2026-01-01
+39,5,CAM00005,,Resultado de la visita,S,2.Visita,6,False,False,2026-01-01,2025-11-19
+40,5,CAM00005,Q00040,Nombre de la persona formada,T,1. Visita,7,True,False,2026-01-01,2026-04-16
+41,5,CAM00005,Q00041,Indica el nº de facings de Nurofen,S,,8,False,False,2026-01-01,2025-11-03
+42,5,CAM00005,Q00042,Indica el nº de facings de Strepsils/Strefen,S,2. Visibilidad,9,False,False,2026-01-01,2026-01-21
+43,5,CAM00005,,Que producto en concreto?,T,1. Visita,10,False,False,2026-01-01,2026-03-06
+44,5,CAM00005,Q00044,Tipo de farmacia,S,1. Visita,11,False,False,2026-01-01,2026-04-26
+45,6,CAM00006,Q00045,Indica tiempo de la formación (en min),N,1. Visita,1,True,False,2025-09-21,2026-02-01
+46,6,CAM00006,Q00046,Indica de qué marca,M,1. Visita,2,True,False,2025-09-21,2025-10-22
+47,6,CAM00006,Q00047,Resultado de la visita,S,2.Visita,3,False,False,2025-09-21,2025-10-24
+48,6,CAM00006,Q00048,"En caso de hacer una mejora en Nurofen, indícalo",M,,4,True,False,2025-09-21,2026-02-06
+49,6,CAM00006,Q00049,Indica el nº de facings de Gaviscon,S,2. Visibilidad,5,False,True,2025-09-21,2025-12-21
+50,6,CAM00006,Q00050,CONTACTO VISITA,T,1.Info,6,False,True,2025-09-21,2025-12-13
+51,6,CAM00006,Q00051,Nombre de la persona formada,T,1. Visita,7,False,False,2025-09-21,2026-03-07
+52,6,CAM00006,,Indica el nº de facings de Nurofen,,2. Visibilidad,8,False,False,2025-09-21,2026-04-05
+53,6,CAM00006,Q00053,Indica el nº de facings de Reflex Gel,S,2. Visibilidad,9,False,True,2025-09-21,2025-12-17
+54,6,CAM00006,Q00054,Indica el nº de facings de Reflex Spray,S,2. Visibilidad,10,False,True,2025-09-21,2025-10-29
+55,6,CAM00006,Q00055,Indica el nº de facings de Strepsils/Strefen,S,,11,False,False,2025-09-21,2025-11-06
+56,7,CAM00007,Q00056,Indica el nº de facings de Strepsils/Strefen,S,2. Visibilidad,1,True,False,2025-10-28,2026-02-17
+57,7,CAM00007,Q00057,Indica tipo de visita,S,,2,False,True,2025-10-28,2026-03-12
+58,7,CAM00007,Q00058,"En caso de hacer una mejora en Gaviscon, indícalo",M,2. Visibilidad,,False,True,2025-10-28,2025-12-28
+59,7,CAM00007,Q00059,Indica de qué marca,M,1. Visita,4,False,True,2025-10-28,2025-10-12
+60,7,CAM00007,Q00060,Núm. de personas formadas,N,1. Visita,5,False,False,2025-10-28,2026-01-31
+61,7,CAM00007,Q00061,"En caso de hacer una mejora en Nurofen, indícalo",M,2. Visibilidad,6,False,True,2025-10-28,2025-12-15
+62,7,CAM00007,Q00062,HORARIO,T,,7,False,False,2025-10-28,2026-01-10
+63,7,CAM00007,Q00063,Indica tiempo de la visita (en min),N,,8,False,False,2025-10-28,2025-12-31
+64,8,CAM00008,Q00064,"En caso de hacer una mejora en Strepsils/Strefen, indícalo",M,2. Visibilidad,1,False,False,2025-10-08,2025-11-17
+65,8,CAM00008,Q00065,Que producto en concreto?,T,1. Visita,2,False,True,2025-10-08,2026-04-05
+66,8,CAM00008,Q00066,Núm. Total de trabajadores de farmacia,N,1. Visita,3,False,False,2025-10-08,2025-10-27
+67,8,CAM00008,Q00067,Cargo de la persona formada,S,1. Visita,4,False,False,2025-10-08,2026-04-02
+68,9,CAM00009,Q00068,Indica tiempo de la visita (en min),N,1. Visita,1,False,True,2025-09-17,2025-11-06
+69,9,CAM00009,Q00069,¿Se ha realizado toda la instalación del vinilo a medida?,S,,2,True,True,2025-09-17,2026-04-18
+70,9,CAM00009,Q00070,Indica el nº de facings de Gaviscon,S,2. Visibilidad,3,True,False,2025-09-17,2025-11-09
+71,9,CAM00009,Q00071,Indica de qué marca,M,1. Visita,4,True,False,2025-09-17,2025-11-05
+72,9,CAM00009,Q00072,CONTACTO VISITA,T,1.Info,5,False,True,2025-09-17,2025-10-30
+73,9,CAM00009,,Tipo de farmacia,S,1. Visita,6,False,False,2025-09-17,2025-10-31
+74,9,CAM00009,Q00074,OBSERV VISITA,T,1.Info,7,False,False,2025-09-17,2025-12-13
+75,9,CAM00009,Q00075,Indica el nº de facings de Strepsils/Strefen,S,2. Visibilidad,8,True,False,2025-09-17,2025-11-14
+76,9,CAM00009,Q00076,Núm. Total de trabajadores de farmacia,N,1. Visita,9,False,False,2025-09-17,2025-10-17
+77,9,CAM00009,Q00077,"En caso de hacer una mejora en Strepsils/Strefen, indícalo",M,2. Visibilidad,10,False,False,2025-09-17,2026-02-08
+78,10,CAM00010,Q00078,Cargo de la persona formada,S,1. Visita,1,False,False,2025-10-23,2025-10-23
+79,10,CAM00010,Q00079,Indica tiempo de la formación (en min),N,1. Visita,2,False,False,2025-10-23,2026-01-14
+80,10,CAM00010,Q00080,La farmacia quiere realizar pedido,S,1. Visita,3,False,False,2025-10-23,2025-10-19
+81,10,CAM00010,Q00081,Núm. de personas formadas,N,1. Visita,4,False,False,2025-10-23,2026-03-13
+82,10,CAM00010,Q00082,Indica el nº de facings de Gavidigest,S,2. Visibilidad,5,True,True,2025-10-23,2026-02-10
+83,10,CAM00010,Q00083,Indica tipo de visita,S,1. Visita,6,False,False,2025-10-23,2026-02-10
+84,10,CAM00010,Q00084,Indica de qué marca,M,1. Visita,7,False,True,2025-10-23,2026-03-10
+85,11,CAM00011,Q00085,"En caso de hacer una mejora en Gaviscon, indícalo",M,2. Visibilidad,1,False,False,2025-09-11,2025-10-11
+86,11,CAM00011,,Indica el nº de facings de Reflex Spray,S,2. Visibilidad,2,False,False,2025-09-11,2025-11-23
+87,11,CAM00011,Q00087,Resultado de la formación,S,1. Visita,3,True,False,2025-09-11,2026-03-10
+88,11,CAM00011,Q00088,Indica el nº de facings de Reflex Gel,S,2. Visibilidad,4,False,False,2025-09-11,2026-01-12
+89,11,CAM00011,Q00089,"En caso de hacer una mejora en Strepsils/Strefen, indícalo",M,2. Visibilidad,5,False,False,2025-09-11,2026-01-15
+90,11,CAM00011,Q00090,Indica tiempo de la visita (en min),N,1. Visita,6,False,False,2025-09-11,2026-04-02
+91,11,CAM00011,Q00091,"En caso de hacer una mejora en Nurofen, indícalo",M,2. Visibilidad,7,False,False,2025-09-11,2026-02-21
+92,11,CAM00011,Q00092,HORARIO,T,1.Info,8,False,False,2025-09-11,2025-12-03
+93,12,CAM00012,Q00093,Cargo de la persona formada,S,1. Visita,1,False,True,2025-12-25,2026-04-14
+94,12,CAM00012,Q00094,Tipo de farmacia,S,1. Visita,2,False,False,2025-12-25,2025-10-06
+95,12,CAM00012,Q00095,Nombre de la persona formada,T,1. Visita,3,False,False,2025-12-25,2025-12-30
+96,12,CAM00012,,Indica el nº de facings de Nurofen,S,2. Visibilidad,4,False,False,2025-12-25,2026-02-15
+97,12,CAM00012,,"En caso de hacer una mejora en Gaviscon, indícalo",M,2. Visibilidad,5,False,False,2025-12-25,2026-01-02
+98,12,CAM00012,,Indica el nº de facings de Strepsils/Strefen,S,2. Visibilidad,6,False,False,2025-12-25,2026-02-19
+99,13,CAM00013,Q00099,Resultado de la formación,S,1. Visita,1,False,True,2025-11-08,2025-11-20
+100,13,CAM00013,Q00100,Indica el nº de facings de Nurofen,S,2. Visibilidad,2,True,True,2025-11-08,2025-11-05
+101,13,CAM00013,Q00101,Indica el nº de facings de Reflex Gel,S,2. Visibilidad,3,False,False,2025-11-08,2026-02-09
+102,13,CAM00013,Q00102,Indica el nº de facings de Gaviscon,S,2. Visibilidad,4,False,False,2025-11-08,2026-04-08
+103,13,CAM00013,Q00103,Indica el nº de facings de Reflex Spray,S,2. Visibilidad,5,False,False,2025-11-08,2026-02-22
+104,13,CAM00013,Q00104,Núm. Total de trabajadores de farmacia,,1. Visita,6,True,False,2025-11-08,2026-02-27
+105,13,CAM00013,Q00105,"En caso de hacer una mejora en Gaviscon, indícalo",M,2. Visibilidad,,False,False,2025-11-08,2026-03-17
+106,13,CAM00013,Q00106,Cargo de la persona formada,S,1. Visita,8,True,False,2025-11-08,2026-01-31
+107,14,CAM00014,Q00107,Indica el nº de facings de Reflex Gel,,2. Visibilidad,1,True,True,2026-01-16,2025-10-05
+108,14,CAM00014,Q00108,"En caso de hacer una mejora en Strepsils/Strefen, indícalo",M,2. Visibilidad,2,False,False,2026-01-16,2026-02-06
+109,14,CAM00014,Q00109,CONTACTO VISITA,T,1.Info,3,True,False,2026-01-16,2025-11-05
+110,14,CAM00014,Q00110,"En caso de hacer una mejora en Gaviscon, indícalo",M,2. Visibilidad,4,False,False,2026-01-16,2026-01-05
+111,14,CAM00014,Q00111,Indica el nº de facings de Nurofen,S,2. Visibilidad,5,False,False,2026-01-16,2026-04-16
+112,14,CAM00014,Q00112,La farmacia quiere realizar pedido,S,1. Visita,6,False,True,2026-01-16,2025-12-03
+113,15,CAM00015,Q00113,Indica el nº de facings de Reflex Spray,S,2. Visibilidad,1,False,True,2026-01-02,2026-02-24
+114,15,CAM00015,Q00114,Nombre de la persona formada,T,1. Visita,2,False,False,2026-01-02,2025-10-11
+115,15,CAM00015,Q00115,Núm. de personas formadas,N,1. Visita,3,False,False,2026-01-02,2026-01-31
+116,15,CAM00015,Q00116,OBSERV VISITA,T,1.Info,4,False,True,2026-01-02,2025-10-28
+117,15,CAM00015,Q00117,¿Se ha realizado toda la instalación del vinilo a medida?,S,2.Visita,5,True,False,2026-01-02,2026-02-13
+118,15,CAM00015,Q00118,Indica tiempo de la formación (en min),N,,6,False,False,2026-01-02,2026-04-02
+119,15,CAM00015,Q00119,Indica el nº de facings de Gavidigest,S,2. Visibilidad,7,True,False,2026-01-02,2025-11-10
+120,15,CAM00015,Q00120,Que producto en concreto?,T,1. Visita,8,False,False,2026-01-02,2025-12-22
+121,16,CAM00016,Q00121,"En caso de hacer una mejora en Strepsils/Strefen, indícalo",M,,1,False,True,2025-12-15,2026-04-10
+122,16,CAM00016,Q00122,Tipo de farmacia,,1. Visita,2,True,False,2025-12-15,2025-12-12
+123,16,CAM00016,Q00123,Resultado de la formación,S,1. Visita,3,False,False,2025-12-15,2026-01-28
+124,16,CAM00016,Q00124,HORARIO,T,1.Info,4,False,False,2025-12-15,2025-12-05
+125,16,CAM00016,Q00125,"En caso de hacer una mejora en Nurofen, indícalo",,2. Visibilidad,5,False,False,2025-12-15,2026-03-22
+126,16,CAM00016,Q00126,Núm. de personas formadas,N,1. Visita,6,False,False,2025-12-15,2026-02-09
+127,16,CAM00016,Q00127,Indica el nº de facings de Reflex Spray,S,2. Visibilidad,7,False,True,2025-12-15,2026-01-31
+128,16,CAM00016,Q00128,OBSERV VISITA,,1.Info,8,False,False,2025-12-15,2026-04-11
+129,17,CAM00017,Q00129,Que producto en concreto?,T,1. Visita,1,False,False,2025-12-29,2026-03-25
+130,17,CAM00017,Q00130,Nombre de la persona formada,T,1. Visita,2,True,False,2025-12-29,2025-12-15
+131,17,CAM00017,Q00131,"En caso de hacer una mejora en Nurofen, indícalo",M,2. Visibilidad,3,False,True,2025-12-29,2026-01-25
+132,17,CAM00017,Q00132,CONTACTO VISITA,T,1.Info,4,False,False,2025-12-29,2026-04-24
+133,17,CAM00017,Q00133,Indica tipo de visita,S,1. Visita,5,True,False,2025-12-29,2026-01-23
+134,17,CAM00017,Q00134,Núm. Total de trabajadores de farmacia,N,1. Visita,6,True,True,2025-12-29,2026-05-01
+135,17,CAM00017,Q00135,Indica de qué marca,M,1. Visita,7,False,True,2025-12-29,2025-12-23
+136,17,CAM00017,Q00136,Núm. de personas formadas,N,1. Visita,8,False,True,2025-12-29,2026-02-08
+137,18,CAM00018,Q00137,,T,1.Info,,False,False,2026-01-21,2025-10-19
+138,18,CAM00018,,Tipo de farmacia,S,1. Visita,2,True,True,2026-01-21,2026-01-29
+139,18,CAM00018,,Indica el nº de facings de Gaviscon,S,2. Visibilidad,3,False,False,2026-01-21,2026-04-05
+140,18,CAM00018,Q00140,La farmacia quiere realizar pedido,S,1. Visita,4,False,False,2026-01-21,2025-10-21
+141,18,CAM00018,Q00141,Indica el nº de facings de Reflex Gel,S,2. Visibilidad,5,False,True,2026-01-21,2025-11-15
+142,18,CAM00018,Q00142,Indica el nº de facings de Strepsils/Strefen,S,2. Visibilidad,6,False,True,2026-01-21,2026-04-12
+143,18,CAM00018,,CONTACTO VISITA,T,1.Info,7,False,False,2026-01-21,2026-01-06
+144,18,CAM00018,Q00144,"En caso de hacer una mejora en Nurofen, indícalo",M,2. Visibilidad,8,False,True,2026-01-21,2026-04-04
+145,18,CAM00018,Q00145,OBSERV VISITA,,1.Info,9,True,True,2026-01-21,2025-11-22
+146,18,CAM00018,Q00146,"En caso de hacer una mejora en Gaviscon, indícalo",M,,10,True,True,2026-01-21,2026-04-08
+147,18,CAM00018,,Nombre de la persona formada,T,1. Visita,11,False,True,2026-01-21,2025-11-05
+148,19,CAM00019,Q00148,Nombre de la persona formada,T,1. Visita,1,True,False,2025-11-26,2026-03-01
+149,19,CAM00019,Q00149,Núm. de personas formadas,N,1. Visita,2,False,True,2025-11-26,2025-12-28
+150,19,CAM00019,Q00150,CONTACTO VISITA,T,1.Info,3,False,False,2025-11-26,2025-11-08
+151,19,CAM00019,Q00151,"En caso de hacer una mejora en Nurofen, indícalo",M,2. Visibilidad,4,False,True,2025-11-26,2025-11-27
+152,19,CAM00019,Q00152,Que producto en concreto?,T,1. Visita,5,False,False,2025-11-26,2026-02-20
+153,19,CAM00019,Q00153,¿Se ha realizado toda la instalación del vinilo a medida?,S,2.Visita,6,False,False,2025-11-26,2026-03-15
+154,19,CAM00019,Q00154,"En caso de hacer una mejora en Gaviscon, indícalo",M,2. Visibilidad,7,False,True,2025-11-26,2025-12-08
+155,19,CAM00019,Q00155,Resultado de la visita,S,2.Visita,8,True,True,2025-11-26,2026-04-24
+156,19,CAM00019,Q00156,OBSERV VISITA,T,1.Info,9,False,False,2025-11-26,2025-11-23
+157,19,CAM00019,Q00157,HORARIO,,1.Info,10,True,False,2025-11-26,2026-04-12
+158,19,CAM00019,Q00158,La farmacia quiere realizar pedido,S,1. Visita,11,False,False,2025-11-26,2025-12-01
+159,19,CAM00019,Q00159,"En caso de hacer una mejora en Strepsils/Strefen, indícalo",M,2. Visibilidad,12,False,False,2025-11-26,2026-03-16
+160,20,CAM00020,Q00160,Nombre de la persona formada,T,1. Visita,1,False,False,2026-01-01,2025-11-07
+161,20,CAM00020,,Núm. Total de trabajadores de farmacia,N,1. Visita,2,False,False,2026-01-01,2025-11-09
+162,20,CAM00020,Q00162,Indica de qué marca,M,1. Visita,3,False,False,2026-01-01,2026-02-18
+163,20,CAM00020,Q00163,Indica el nº de facings de Reflex Gel,S,2. Visibilidad,4,False,False,2026-01-01,2026-03-14
+164,20,CAM00020,Q00164,Indica el nº de facings de Gavidigest,S,2. Visibilidad,5,False,True,2026-01-01,2025-11-05
+165,20,CAM00020,Q00165,Indica el nº de facings de Gaviscon,S,2. Visibilidad,6,True,False,2026-01-01,2025-10-09
+166,20,CAM00020,Q00166,Cargo de la persona formada,S,1. Visita,,False,True,2026-01-01,2026-03-11
+167,20,CAM00020,Q00167,Resultado de la visita,S,2.Visita,,False,False,2026-01-01,2026-01-25
+168,20,CAM00020,Q00168,Que producto en concreto?,T,1. Visita,9,False,False,2026-01-01,2026-02-02
+169,21,CAM00021,Q00169,Indica tipo de visita,S,1. Visita,,False,True,2025-10-10,2025-10-28
+170,21,CAM00021,Q00170,Indica el nº de facings de Reflex Spray,S,2. Visibilidad,2,False,False,2025-10-10,2025-12-08
+171,21,CAM00021,Q00171,Indica el nº de facings de Strepsils/Strefen,S,2. Visibilidad,3,False,False,2025-10-10,2025-11-27
+172,21,CAM00021,Q00172,Indica el nº de facings de Reflex Gel,S,2. Visibilidad,4,True,True,2025-10-10,2026-01-12
+173,22,CAM00022,Q00173,Indica el nº de facings de Nurofen,S,2. Visibilidad,1,True,True,2025-10-14,2025-11-24
+174,22,CAM00022,Q00174,Indica el nº de facings de Reflex Spray,S,2. Visibilidad,2,True,False,2025-10-14,2025-12-11
+175,22,CAM00022,Q00175,Indica el nº de facings de Gavidigest,S,,3,False,True,2025-10-14,2025-11-23
+176,22,CAM00022,Q00176,Tipo de farmacia,S,1. Visita,4,True,False,2025-10-14,2025-11-11
+177,22,CAM00022,Q00177,"En caso de hacer una mejora en Strepsils/Strefen, indícalo",M,2. Visibilidad,5,False,False,2025-10-14,2026-04-12
+178,22,CAM00022,Q00178,Indica tipo de visita,S,1. Visita,6,False,True,2025-10-14,2025-10-26
+179,22,CAM00022,Q00179,Indica tiempo de la visita (en min),N,1. Visita,7,False,False,2025-10-14,2025-10-08
+180,22,CAM00022,Q00180,Resultado de la formación,S,1. Visita,8,False,False,2025-10-14,2026-01-05
+181,22,CAM00022,Q00181,CONTACTO VISITA,T,1.Info,9,False,True,2025-10-14,2026-04-16
+182,22,CAM00022,Q00182,Indica el nº de facings de Strepsils/Strefen,S,2. Visibilidad,10,True,False,2025-10-14,2025-11-09
+183,23,CAM00023,Q00183,¿Se ha realizado toda la instalación del vinilo a medida?,S,2.Visita,1,False,True,2025-11-21,2025-11-17
+184,23,CAM00023,Q00184,"En caso de hacer una mejora en Strepsils/Strefen, indícalo",M,2. Visibilidad,2,False,True,2025-11-21,2025-10-07
+185,23,CAM00023,Q00185,La farmacia quiere realizar pedido,S,1. Visita,3,False,False,2025-11-21,2025-10-04
+186,23,CAM00023,Q00186,Indica el nº de facings de Nurofen,S,2. Visibilidad,4,False,False,2025-11-21,2026-02-11
+187,23,CAM00023,Q00187,Que producto en concreto?,T,1. Visita,5,False,False,2025-11-21,2025-12-08
+188,23,CAM00023,Q00188,Indica de qué marca,M,1. Visita,6,False,False,2025-11-21,2025-12-16
+189,23,CAM00023,Q00189,Cargo de la persona formada,S,1. Visita,7,False,False,2025-11-21,2026-03-07
+190,23,CAM00023,Q00190,Resultado de la formación,S,1. Visita,8,True,False,2025-11-21,2025-12-25
+191,23,CAM00023,Q00191,Indica tipo de visita,S,1. Visita,9,False,False,2025-11-21,2026-03-02
+192,23,CAM00023,Q00192,Nombre de la persona formada,T,1. Visita,10,False,False,2025-11-21,2025-12-20
+193,24,CAM00024,Q00193,Indica el nº de facings de Nurofen,S,2. Visibilidad,1,False,False,2025-12-08,2025-10-30
+194,24,CAM00024,Q00194,Que producto en concreto?,T,1. Visita,2,True,False,2025-12-08,2026-01-27
+195,24,CAM00024,Q00195,Nombre de la persona formada,T,1. Visita,3,True,False,2025-12-08,2026-03-22
+196,24,CAM00024,Q00196,¿Se ha realizado toda la instalación del vinilo a medida?,S,2.Visita,4,False,False,2025-12-08,2025-11-09
+197,24,CAM00024,Q00197,"En caso de hacer una mejora en Strepsils/Strefen, indícalo",M,2. Visibilidad,5,False,False,2025-12-08,2026-01-11
+198,24,CAM00024,Q00198,Indica el nº de facings de Gavidigest,S,2. Visibilidad,6,True,False,2025-12-08,2026-03-29
+199,25,CAM00025,,"En caso de hacer una mejora en Gaviscon, indícalo",M,2. Visibilidad,1,False,False,2025-12-21,2026-01-04
+200,25,CAM00025,Q00200,"En caso de hacer una mejora en Strepsils/Strefen, indícalo",M,2. Visibilidad,2,False,False,2025-12-21,2025-10-07
+201,25,CAM00025,Q00201,Resultado de la formación,S,1. Visita,3,True,False,2025-12-21,2025-11-06
+202,25,CAM00025,Q00202,Cargo de la persona formada,S,1. Visita,4,False,False,2025-12-21,2026-01-30
+203,25,CAM00025,Q00203,Núm. de personas formadas,N,1. Visita,5,False,True,2025-12-21,2025-12-16
+204,25,CAM00025,,Indica de qué marca,M,,6,True,False,2025-12-21,2026-04-23
+205,25,CAM00025,Q00205,Indica tiempo de la visita (en min),N,1. Visita,7,False,False,2025-12-21,2026-02-21
+206,25,CAM00025,Q00206,Tipo de farmacia,S,1. Visita,8,False,True,2025-12-21,2026-03-13
+207,25,CAM00025,Q00207,Indica el nº de facings de Nurofen,S,,9,False,False,2025-12-21,2026-03-01
+208,25,CAM00025,Q00208,Que producto en concreto?,,1. Visita,10,False,False,2025-12-21,2026-04-11
+209,25,CAM00025,Q00209,Indica el nº de facings de Strepsils/Strefen,S,2. Visibilidad,11,False,False,2025-12-21,2025-12-23
+210,25,CAM00025,Q00210,"En caso de hacer una mejora en Nurofen, indícalo",M,2. Visibilidad,12,False,False,2025-12-21,2026-03-13
+211,26,CAM00026,Q00211,"En caso de hacer una mejora en Gaviscon, indícalo",M,2. Visibilidad,1,True,False,2025-12-18,2025-11-04
+212,26,CAM00026,Q00212,Indica el nº de facings de Nurofen,S,2. Visibilidad,2,False,False,2025-12-18,2026-03-27
+213,26,CAM00026,Q00213,HORARIO,T,1.Info,3,False,False,2025-12-18,2026-01-07
+214,26,CAM00026,Q00214,OBSERV VISITA,T,1.Info,4,False,False,2025-12-18,2025-11-12
+215,26,CAM00026,Q00215,"En caso de hacer una mejora en Nurofen, indícalo",M,2. Visibilidad,5,False,False,2025-12-18,2025-10-14
+216,26,CAM00026,Q00216,,S,1. Visita,6,False,False,2025-12-18,2026-02-07
+217,26,CAM00026,Q00217,Indica de qué marca,M,1. Visita,7,False,False,2025-12-18,2026-01-22
+218,26,CAM00026,Q00218,CONTACTO VISITA,T,1.Info,,False,False,2025-12-18,2025-10-09
+219,26,CAM00026,Q00219,Indica el nº de facings de Gaviscon,S,2. Visibilidad,9,False,False,2025-12-18,2026-04-09
+220,27,CAM00027,Q00220,Indica el nº de facings de Reflex Spray,S,2. Visibilidad,1,False,False,2025-10-28,2025-10-09
+221,27,CAM00027,Q00221,Indica el nº de facings de Reflex Gel,S,2. Visibilidad,2,True,True,2025-10-28,2025-11-23
+222,27,CAM00027,Q00222,Cargo de la persona formada,S,1. Visita,3,False,True,2025-10-28,2026-03-07
+223,27,CAM00027,Q00223,"En caso de hacer una mejora en Nurofen, indícalo",M,,4,False,False,2025-10-28,2025-12-11
+224,27,CAM00027,Q00224,CONTACTO VISITA,T,1.Info,5,False,False,2025-10-28,2026-02-24
+225,27,CAM00027,Q00225,Núm. Total de trabajadores de farmacia,N,1. Visita,6,False,True,2025-10-28,2025-12-10
+226,27,CAM00027,Q00226,HORARIO,T,1.Info,7,False,False,2025-10-28,2025-12-22
+227,27,CAM00027,Q00227,Indica de qué marca,M,1. Visita,8,False,False,2025-10-28,2026-03-11
+228,27,CAM00027,Q00228,"En caso de hacer una mejora en Gaviscon, indícalo",M,2. Visibilidad,9,True,False,2025-10-28,2026-04-22
+229,27,CAM00027,Q00229,Tipo de farmacia,S,1. Visita,10,False,False,2025-10-28,2026-01-03
+230,27,CAM00027,Q00230,Indica el nº de facings de Gaviscon,S,2. Visibilidad,,True,False,2025-10-28,2026-01-26
+231,28,CAM00028,Q00231,Resultado de la visita,S,2.Visita,1,False,False,2025-09-26,2026-03-24
+232,28,CAM00028,Q00232,¿Se ha realizado toda la instalación del vinilo a medida?,S,2.Visita,2,False,True,2025-09-26,2025-11-01
+233,28,CAM00028,Q00233,Indica de qué marca,M,,3,False,False,2025-09-26,2025-11-03
+234,28,CAM00028,Q00234,Resultado de la formación,S,1. Visita,4,False,False,2025-09-26,2025-10-22
+235,28,CAM00028,Q00235,Indica el nº de facings de Reflex Spray,S,2. Visibilidad,5,False,False,2025-09-26,2025-12-18
+236,28,CAM00028,Q00236,Indica el nº de facings de Nurofen,S,2. Visibilidad,6,True,False,2025-09-26,2025-10-25
+237,28,CAM00028,,Indica tiempo de la formación (en min),N,1. Visita,7,False,False,2025-09-26,2026-03-24
+238,28,CAM00028,Q00238,,,2. Visibilidad,8,True,False,2025-09-26,2026-03-27
+239,28,CAM00028,Q00239,"En caso de hacer una mejora en Gaviscon, indícalo",M,2. Visibilidad,9,True,False,2025-09-26,2026-04-25
+240,28,CAM00028,Q00240,Indica el nº de facings de Gavidigest,S,2. Visibilidad,10,False,False,2025-09-26,2026-04-17
+241,28,CAM00028,Q00241,Núm. Total de trabajadores de farmacia,N,1. Visita,11,True,False,2025-09-26,2026-02-22
+242,28,CAM00028,,Indica tiempo de la visita (en min),N,1. Visita,12,False,False,2025-09-26,2025-11-24
+243,28,CAM00028,Q00243,"En caso de hacer una mejora en Nurofen, indícalo",M,2. Visibilidad,13,False,True,2025-09-26,2025-10-23
+244,28,CAM00028,Q00244,La farmacia quiere realizar pedido,S,1. Visita,14,False,False,2025-09-26,2026-01-18
+245,29,CAM00029,Q00245,HORARIO,,1.Info,1,False,False,2026-01-20,2026-03-05
+246,29,CAM00029,Q00246,La farmacia quiere realizar pedido,S,1. Visita,2,True,True,2026-01-20,2026-02-04
+247,29,CAM00029,Q00247,Núm. de personas formadas,N,1. Visita,3,True,False,2026-01-20,2025-10-04
+248,29,CAM00029,Q00248,Núm. Total de trabajadores de farmacia,N,1. Visita,4,False,False,2026-01-20,2026-02-17
+249,29,CAM00029,Q00249,"En caso de hacer una mejora en Strepsils/Strefen, indícalo",M,2. Visibilidad,5,True,True,2026-01-20,2026-02-28
+250,29,CAM00029,Q00250,,S,1. Visita,6,True,False,2026-01-20,2026-02-07
+251,29,CAM00029,Q00251,CONTACTO VISITA,T,1.Info,7,False,False,2026-01-20,2026-03-29
+252,29,CAM00029,Q00252,Indica el nº de facings de Reflex Spray,S,2. Visibilidad,8,False,False,2026-01-20,2025-10-22
+253,29,CAM00029,Q00253,Nombre de la persona formada,T,1. Visita,9,False,False,2026-01-20,2026-02-28
+254,30,CAM00030,Q00254,OBSERV VISITA,T,,1,False,True,2025-10-01,2025-10-04
+255,30,CAM00030,Q00255,"En caso de hacer una mejora en Strepsils/Strefen, indícalo",M,,2,False,False,2025-10-01,2026-02-11
+256,30,CAM00030,Q00256,Resultado de la visita,S,2.Visita,3,False,False,2025-10-01,2026-04-18
+257,30,CAM00030,Q00257,HORARIO,T,1.Info,,False,False,2025-10-01,2025-12-09
+258,30,CAM00030,Q00258,Resultado de la formación,S,1. Visita,5,True,False,2025-10-01,2026-01-25
+259,30,CAM00030,Q00259,Nombre de la persona formada,T,1. Visita,6,False,False,2025-10-01,2025-11-10
+260,30,CAM00030,Q00260,Indica el nº de facings de Strepsils/Strefen,S,2. Visibilidad,7,True,True,2025-10-01,2026-04-08
+261,30,CAM00030,Q00261,,N,,8,True,False,2025-10-01,2026-01-02
+262,30,CAM00030,Q00262,Tipo de farmacia,S,,9,False,True,2025-10-01,2025-12-22
+263,30,CAM00030,Q00263,"En caso de hacer una mejora en Nurofen, indícalo",M,2. Visibilidad,10,True,False,2025-10-01,2026-01-04
+264,30,CAM00030,Q00264,CONTACTO VISITA,T,,11,False,False,2025-10-01,2025-10-12
+265,30,CAM00030,Q00265,Indica el nº de facings de Gaviscon,S,2. Visibilidad,12,False,False,2025-10-01,2025-10-23
+266,30,CAM00030,Q00266,Indica tiempo de la formación (en min),,1. Visita,13,False,False,2025-10-01,2026-04-19
+267,30,CAM00030,Q00267,Indica el nº de facings de Reflex Spray,S,2. Visibilidad,14,False,False,2025-10-01,2026-02-04
+268,31,CAM00031,Q00268,CONTACTO VISITA,T,1.Info,1,True,False,2026-02-04,2025-10-01
+269,31,CAM00031,Q00269,Indica el nº de facings de Reflex Spray,S,2. Visibilidad,2,False,True,2026-02-04,2025-11-22
+270,31,CAM00031,Q00270,Núm. de personas formadas,N,1. Visita,3,False,False,2026-02-04,2025-12-11
+271,31,CAM00031,Q00271,La farmacia quiere realizar pedido,S,1. Visita,4,False,False,2026-02-04,2026-04-10
+272,31,CAM00031,Q00272,Indica tipo de visita,S,1. Visita,5,False,True,2026-02-04,2026-03-01
+273,31,CAM00031,Q00273,Indica el nº de facings de Strepsils/Strefen,S,2. Visibilidad,6,False,False,2026-02-04,2025-12-06
+274,31,CAM00031,Q00274,Resultado de la visita,S,2.Visita,7,False,False,2026-02-04,2025-12-09
+275,32,CAM00032,Q00275,Resultado de la formación,S,1. Visita,1,True,False,2025-10-17,2025-12-31
+276,32,CAM00032,Q00276,Indica tiempo de la formación (en min),N,1. Visita,2,False,True,2025-10-17,2025-10-24
+277,32,CAM00032,Q00277,La farmacia quiere realizar pedido,S,1. Visita,3,True,True,2025-10-17,2025-12-23
+278,32,CAM00032,Q00278,"En caso de hacer una mejora en Nurofen, indícalo",M,2. Visibilidad,4,False,False,2025-10-17,2025-10-13
+279,32,CAM00032,Q00279,Cargo de la persona formada,S,1. Visita,,False,False,2025-10-17,2026-02-20
+280,32,CAM00032,Q00280,CONTACTO VISITA,T,1.Info,6,True,True,2025-10-17,2025-11-01
+281,32,CAM00032,,Resultado de la visita,S,2.Visita,7,False,False,2025-10-17,2026-01-04
+282,33,CAM00033,Q00282,"En caso de hacer una mejora en Strepsils/Strefen, indícalo",M,2. Visibilidad,1,False,False,2025-12-02,2026-01-19
+283,33,CAM00033,Q00283,HORARIO,T,,2,False,True,2025-12-02,2025-12-30
+284,33,CAM00033,Q00284,Resultado de la formación,S,1. Visita,3,False,True,2025-12-02,2026-03-07
+285,33,CAM00033,Q00285,"En caso de hacer una mejora en Nurofen, indícalo",M,2. Visibilidad,4,False,False,2025-12-02,2026-02-18
+286,33,CAM00033,Q00286,¿Se ha realizado toda la instalación del vinilo a medida?,S,2.Visita,5,False,False,2025-12-02,2025-11-21
+287,33,CAM00033,Q00287,Núm. Total de trabajadores de farmacia,N,1. Visita,6,True,False,2025-12-02,2026-04-19
+288,33,CAM00033,Q00288,CONTACTO VISITA,T,1.Info,7,False,False,2025-12-02,2026-02-06
+289,33,CAM00033,Q00289,Indica tipo de visita,S,1. Visita,,False,False,2025-12-02,2025-11-26
+290,33,CAM00033,,"En caso de hacer una mejora en Gaviscon, indícalo",M,,9,False,False,2025-12-02,2025-11-29
+291,33,CAM00033,Q00291,Indica tiempo de la formación (en min),N,1. Visita,10,False,False,2025-12-02,2026-04-27
+292,33,CAM00033,Q00292,Indica el nº de facings de Gaviscon,S,2. Visibilidad,11,False,False,2025-12-02,2025-11-14
+293,33,CAM00033,Q00293,Indica el nº de facings de Nurofen,S,2. Visibilidad,12,False,False,2025-12-02,2025-10-08
+294,33,CAM00033,Q00294,Indica el nº de facings de Reflex Spray,S,2. Visibilidad,13,False,False,2025-12-02,2025-11-18
+295,33,CAM00033,Q00295,Tipo de farmacia,S,1. Visita,14,True,True,2025-12-02,2025-10-15
+296,34,CAM00034,Q00296,"En caso de hacer una mejora en Gaviscon, indícalo",M,2. Visibilidad,1,False,False,2025-11-04,2025-10-16
+297,34,CAM00034,,Núm. de personas formadas,N,1. Visita,2,True,False,2025-11-04,2026-01-02
+298,34,CAM00034,Q00298,Indica tipo de visita,S,1. Visita,3,True,False,2025-11-04,2025-12-17
+299,34,CAM00034,Q00299,Indica el nº de facings de Reflex Gel,S,2. Visibilidad,4,False,False,2025-11-04,2025-12-21
+300,34,CAM00034,Q00300,Indica el nº de facings de Gavidigest,S,2. Visibilidad,5,False,True,2025-11-04,2026-03-20
+301,34,CAM00034,Q00301,CONTACTO VISITA,T,1.Info,6,False,True,2025-11-04,2025-11-15
+302,34,CAM00034,Q00302,,T,1. Visita,7,True,True,2025-11-04,2026-03-04
+303,35,CAM00035,Q00303,HORARIO,T,1.Info,1,False,False,2026-01-08,2025-10-23
+304,35,CAM00035,Q00304,"En caso de hacer una mejora en Gaviscon, indícalo",M,2. Visibilidad,2,False,True,2026-01-08,2025-12-07
+305,35,CAM00035,Q00305,Núm. de personas formadas,N,1. Visita,3,False,True,2026-01-08,2026-04-03
+306,35,CAM00035,,"En caso de hacer una mejora en Strepsils/Strefen, indícalo",M,2. Visibilidad,4,False,True,2026-01-08,2026-01-14
+307,35,CAM00035,Q00307,"En caso de hacer una mejora en Nurofen, indícalo",M,2. Visibilidad,5,True,False,2026-01-08,2026-04-20
+308,35,CAM00035,Q00308,Cargo de la persona formada,S,1. Visita,6,False,False,2026-01-08,2025-10-19
+309,35,CAM00035,,Indica el nº de facings de Gavidigest,,2. Visibilidad,7,True,True,2026-01-08,2025-12-27
+310,35,CAM00035,Q00310,La farmacia quiere realizar pedido,S,1. Visita,8,True,False,2026-01-08,2026-03-02
+311,35,CAM00035,Q00311,Que producto en concreto?,T,,9,False,False,2026-01-08,2026-01-20
+312,36,CAM00036,Q00312,Tipo de farmacia,S,1. Visita,1,False,False,2026-01-19,2025-12-12
+313,36,CAM00036,Q00313,Cargo de la persona formada,S,,2,False,True,2026-01-19,2025-10-14
+314,36,CAM00036,Q00314,,T,1. Visita,3,False,True,2026-01-19,2025-10-25
+315,36,CAM00036,,Indica tiempo de la formación (en min),N,1. Visita,4,True,False,2026-01-19,2025-10-30
+316,36,CAM00036,Q00316,¿Se ha realizado toda la instalación del vinilo a medida?,S,2.Visita,5,False,True,2026-01-19,2026-03-14
+317,36,CAM00036,Q00317,Indica el nº de facings de Strepsils/Strefen,S,2. Visibilidad,6,False,True,2026-01-19,2026-01-23
+318,37,CAM00037,Q00318,Núm. Total de trabajadores de farmacia,N,1. Visita,1,True,True,2025-10-17,2026-03-21
+319,37,CAM00037,Q00319,Indica el nº de facings de Gaviscon,S,2. Visibilidad,2,False,False,2025-10-17,2025-10-16
+320,37,CAM00037,Q00320,Núm. de personas formadas,N,1. Visita,3,False,False,2025-10-17,2025-11-30
+321,37,CAM00037,Q00321,"En caso de hacer una mejora en Nurofen, indícalo",M,2. Visibilidad,4,True,False,2025-10-17,2026-02-24
+322,38,CAM00038,,HORARIO,T,1.Info,1,False,False,2025-10-23,2025-11-07
+323,38,CAM00038,Q00323,"En caso de hacer una mejora en Nurofen, indícalo",M,2. Visibilidad,2,True,False,2025-10-23,2026-02-20
+324,38,CAM00038,Q00324,Resultado de la visita,S,2.Visita,3,False,True,2025-10-23,2026-04-20
+325,38,CAM00038,Q00325,"En caso de hacer una mejora en Gaviscon, indícalo",M,2. Visibilidad,4,True,False,2025-10-23,2025-11-08
+326,38,CAM00038,Q00326,La farmacia quiere realizar pedido,S,1. Visita,5,True,True,2025-10-23,2026-02-22
+327,38,CAM00038,Q00327,Cargo de la persona formada,S,1. Visita,6,False,False,2025-10-23,2026-01-07
+328,38,CAM00038,Q00328,Indica el nº de facings de Gaviscon,S,2. Visibilidad,7,True,True,2025-10-23,2025-12-10
+329,38,CAM00038,Q00329,Indica tiempo de la visita (en min),N,1. Visita,8,False,True,2025-10-23,2026-01-10
+330,38,CAM00038,Q00330,OBSERV VISITA,T,,9,False,False,2025-10-23,2026-01-04
+331,38,CAM00038,,Indica tiempo de la formación (en min),N,1. Visita,10,False,False,2025-10-23,2026-03-25
+332,38,CAM00038,Q00332,Indica el nº de facings de Reflex Gel,S,2. Visibilidad,11,False,False,2025-10-23,2025-12-08
+333,38,CAM00038,Q00333,Resultado de la formación,S,1. Visita,12,False,False,2025-10-23,2025-11-24
+334,39,CAM00039,Q00334,CONTACTO VISITA,T,1.Info,1,True,True,2025-10-07,2025-11-19
+335,39,CAM00039,Q00335,Indica el nº de facings de Gavidigest,S,,2,True,False,2025-10-07,2026-03-30
+336,39,CAM00039,Q00336,Indica el nº de facings de Reflex Gel,S,2. Visibilidad,3,False,False,2025-10-07,2025-11-01
+337,39,CAM00039,Q00337,Indica de qué marca,M,1. Visita,4,False,True,2025-10-07,2026-01-30
+338,39,CAM00039,Q00338,Tipo de farmacia,S,1. Visita,5,False,False,2025-10-07,2026-05-01
+339,39,CAM00039,Q00339,HORARIO,T,,6,True,True,2025-10-07,2026-02-24
+340,39,CAM00039,Q00340,Indica tiempo de la visita (en min),N,1. Visita,7,False,False,2025-10-07,2026-03-16
+341,39,CAM00039,Q00341,Resultado de la formación,,1. Visita,8,True,False,2025-10-07,2025-11-03
+342,39,CAM00039,Q00342,Nombre de la persona formada,T,,9,False,False,2025-10-07,2026-04-25
+343,39,CAM00039,Q00343,"En caso de hacer una mejora en Strepsils/Strefen, indícalo",M,2. Visibilidad,10,False,False,2025-10-07,2025-12-29
+344,40,CAM00040,Q00344,Núm. Total de trabajadores de farmacia,N,1. Visita,1,False,False,2026-02-13,2025-10-28
+345,40,CAM00040,Q00345,Indica tiempo de la formación (en min),N,1. Visita,2,False,False,2026-02-13,2025-12-06
+346,40,CAM00040,Q00346,Indica el nº de facings de Gaviscon,S,2. Visibilidad,3,False,False,2026-02-13,2026-04-14
+347,40,CAM00040,Q00347,Nombre de la persona formada,T,1. Visita,4,False,False,2026-02-13,2025-11-05
+348,40,CAM00040,Q00348,Resultado de la visita,S,2.Visita,5,False,False,2026-02-13,2026-01-12
+349,40,CAM00040,Q00349,Indica el nº de facings de Reflex Gel,,2. Visibilidad,6,False,False,2026-02-13,2026-04-04
+350,40,CAM00040,Q00350,"En caso de hacer una mejora en Gaviscon, indícalo",M,2. Visibilidad,7,False,False,2026-02-13,2025-12-31
+351,40,CAM00040,Q00351,Indica el nº de facings de Nurofen,S,2. Visibilidad,8,False,False,2026-02-13,2025-10-25
+352,40,CAM00040,Q00352,Cargo de la persona formada,S,1. Visita,9,False,False,2026-02-13,2025-12-25
+353,40,CAM00040,Q00353,Indica tipo de visita,S,1. Visita,10,False,False,2026-02-13,2026-04-20
+354,40,CAM00040,Q00354,Indica de qué marca,M,1. Visita,11,False,True,2026-02-13,2026-01-29
+355,41,CAM00041,Q00355,"En caso de hacer una mejora en Strepsils/Strefen, indícalo",M,2. Visibilidad,1,False,False,2026-01-13,2025-12-16
+356,41,CAM00041,Q00356,"En caso de hacer una mejora en Nurofen, indícalo",M,2. Visibilidad,2,False,False,2026-01-13,2026-02-23
+357,41,CAM00041,Q00357,"En caso de hacer una mejora en Gaviscon, indícalo",M,2. Visibilidad,3,True,False,2026-01-13,2025-12-25
+358,41,CAM00041,Q00358,Resultado de la formación,S,1. Visita,4,True,False,2026-01-13,2025-12-10
+359,42,CAM00042,Q00359,OBSERV VISITA,T,1.Info,1,False,False,2025-10-09,2026-01-31
+360,42,CAM00042,Q00360,,,1.Info,2,False,True,2025-10-09,2025-12-22
+361,42,CAM00042,Q00361,Indica tiempo de la visita (en min),N,,3,True,False,2025-10-09,2026-04-06
+362,42,CAM00042,Q00362,"En caso de hacer una mejora en Nurofen, indícalo",M,2. Visibilidad,4,False,True,2025-10-09,2026-01-07
+363,42,CAM00042,Q00363,CONTACTO VISITA,T,1.Info,5,True,False,2025-10-09,2025-12-14
+364,42,CAM00042,Q00364,Indica el nº de facings de Gavidigest,S,2. Visibilidad,6,False,False,2025-10-09,2026-03-25
+365,42,CAM00042,Q00365,Resultado de la formación,S,1. Visita,7,False,True,2025-10-09,2026-04-26
+366,43,CAM00043,Q00366,Indica tipo de visita,S,,1,False,False,2026-01-16,2026-03-09
+367,43,CAM00043,,Núm. de personas formadas,N,1. Visita,2,True,True,2026-01-16,2026-03-26
+368,43,CAM00043,Q00368,OBSERV VISITA,T,1.Info,3,False,False,2026-01-16,2026-03-29
+369,43,CAM00043,Q00369,La farmacia quiere realizar pedido,S,1. Visita,4,True,False,2026-01-16,2026-01-16
+370,43,CAM00043,Q00370,Indica tiempo de la formación (en min),N,1. Visita,5,False,False,2026-01-16,2026-05-01
+371,43,CAM00043,Q00371,HORARIO,T,1.Info,6,False,True,2026-01-16,2026-04-19
+372,43,CAM00043,Q00372,"En caso de hacer una mejora en Nurofen, indícalo",M,2. Visibilidad,7,False,False,2026-01-16,2025-11-21
+373,43,CAM00043,Q00373,Indica el nº de facings de Reflex Gel,S,2. Visibilidad,8,True,False,2026-01-16,2026-02-05
+374,43,CAM00043,Q00374,Indica tiempo de la visita (en min),N,1. Visita,9,True,True,2026-01-16,2026-03-21
+375,43,CAM00043,Q00375,Cargo de la persona formada,S,1. Visita,10,False,True,2026-01-16,2026-04-18
+376,44,CAM00044,Q00376,Resultado de la formación,S,1. Visita,1,False,False,2025-09-25,2026-04-08
+377,44,CAM00044,Q00377,CONTACTO VISITA,T,,,False,False,2025-09-25,2026-03-15
+378,44,CAM00044,Q00378,OBSERV VISITA,T,1.Info,3,False,False,2025-09-25,2025-10-24
+379,44,CAM00044,Q00379,Cargo de la persona formada,S,1. Visita,4,False,False,2025-09-25,2025-12-09
+380,44,CAM00044,Q00380,Núm. Total de trabajadores de farmacia,N,1. Visita,5,False,True,2025-09-25,2025-11-03
+381,44,CAM00044,Q00381,"En caso de hacer una mejora en Strepsils/Strefen, indícalo",M,2. Visibilidad,6,False,False,2025-09-25,2026-02-01
+382,44,CAM00044,Q00382,Núm. de personas formadas,N,1. Visita,7,False,False,2025-09-25,2026-03-06
+383,44,CAM00044,,Indica el nº de facings de Gaviscon,S,2. Visibilidad,8,False,True,2025-09-25,2026-01-14
+384,44,CAM00044,Q00384,Nombre de la persona formada,T,1. Visita,9,False,True,2025-09-25,2026-03-30
+385,44,CAM00044,Q00385,Resultado de la visita,S,2.Visita,10,False,False,2025-09-25,2025-12-26
+386,44,CAM00044,Q00386,"En caso de hacer una mejora en Nurofen, indícalo",M,2. Visibilidad,11,True,False,2025-09-25,2026-03-19
+387,44,CAM00044,Q00387,Indica tipo de visita,S,1. Visita,12,False,True,2025-09-25,2026-04-30
+388,45,CAM00045,Q00388,"En caso de hacer una mejora en Gaviscon, indícalo",M,,1,False,False,2026-01-30,2026-03-14
+389,45,CAM00045,Q00389,Tipo de farmacia,S,1. Visita,2,False,False,2026-01-30,2026-01-23
+390,45,CAM00045,Q00390,Indica tipo de visita,S,1. Visita,3,False,False,2026-01-30,2026-03-17
+391,45,CAM00045,,"En caso de hacer una mejora en Strepsils/Strefen, indícalo",M,2. Visibilidad,,True,True,2026-01-30,2026-04-21
+392,45,CAM00045,Q00392,Indica tiempo de la visita (en min),N,1. Visita,5,False,False,2026-01-30,2026-03-21
+393,45,CAM00045,Q00393,Indica el nº de facings de Reflex Gel,S,,6,False,False,2026-01-30,2026-02-21
+394,45,CAM00045,Q00394,Indica el nº de facings de Gavidigest,S,2. Visibilidad,7,False,False,2026-01-30,2026-01-24
+395,45,CAM00045,Q00395,HORARIO,T,1.Info,8,True,False,2026-01-30,2025-12-30
+396,45,CAM00045,Q00396,Resultado de la visita,S,2.Visita,9,True,True,2026-01-30,2025-11-12
+397,45,CAM00045,Q00397,Resultado de la formación,S,1. Visita,10,False,True,2026-01-30,2025-12-05
+398,45,CAM00045,Q00398,"En caso de hacer una mejora en Nurofen, indícalo",M,2. Visibilidad,11,False,False,2026-01-30,2026-04-30
+399,45,CAM00045,Q00399,Indica el nº de facings de Reflex Spray,S,2. Visibilidad,12,False,True,2026-01-30,2026-03-12
+400,46,CAM00046,Q00400,"En caso de hacer una mejora en Nurofen, indícalo",M,2. Visibilidad,1,False,False,2026-02-05,2026-04-27
+401,46,CAM00046,Q00401,Cargo de la persona formada,S,1. Visita,2,False,False,2026-02-05,2026-01-07
+402,46,CAM00046,Q00402,Indica el nº de facings de Gaviscon,S,2. Visibilidad,3,False,False,2026-02-05,2025-12-27
+403,46,CAM00046,Q00403,CONTACTO VISITA,T,1.Info,4,False,False,2026-02-05,2026-02-18
+404,46,CAM00046,Q00404,Resultado de la visita,S,2.Visita,5,False,True,2026-02-05,2025-11-23
+405,46,CAM00046,Q00405,HORARIO,T,1.Info,6,False,False,2026-02-05,2026-03-16
+406,46,CAM00046,Q00406,Indica el nº de facings de Reflex Gel,S,2. Visibilidad,7,False,False,2026-02-05,2025-10-30
+407,46,CAM00046,Q00407,La farmacia quiere realizar pedido,S,1. Visita,8,False,False,2026-02-05,2026-04-10
+408,46,CAM00046,Q00408,Indica el nº de facings de Gavidigest,S,,9,True,True,2026-02-05,2026-01-06
+409,46,CAM00046,Q00409,Indica tipo de visita,S,,10,False,True,2026-02-05,2025-12-13
+410,46,CAM00046,Q00410,Tipo de farmacia,S,,11,False,True,2026-02-05,2026-04-11
+411,46,CAM00046,Q00411,Núm. Total de trabajadores de farmacia,N,1. Visita,12,False,False,2026-02-05,2026-03-15
+412,46,CAM00046,Q00412,Indica tiempo de la formación (en min),N,1. Visita,13,False,False,2026-02-05,2026-03-20
+413,46,CAM00046,,Nombre de la persona formada,T,1. Visita,14,False,False,2026-02-05,2025-10-14
+414,47,CAM00047,Q00414,CONTACTO VISITA,T,1.Info,1,False,False,2025-12-25,2026-02-17
+415,47,CAM00047,Q00415,Núm. Total de trabajadores de farmacia,N,1. Visita,2,False,False,2025-12-25,2026-01-23
+416,47,CAM00047,Q00416,Indica tiempo de la formación (en min),N,1. Visita,3,True,False,2025-12-25,2025-10-11
+417,47,CAM00047,Q00417,"En caso de hacer una mejora en Gaviscon, indícalo",M,2. Visibilidad,4,False,False,2025-12-25,2025-12-05
+418,48,CAM00048,,Que producto en concreto?,T,1. Visita,1,False,False,2025-12-04,2026-04-21
+419,48,CAM00048,Q00419,Indica el nº de facings de Gaviscon,S,2. Visibilidad,2,False,False,2025-12-04,2025-11-26
+420,48,CAM00048,Q00420,¿Se ha realizado toda la instalación del vinilo a medida?,S,2.Visita,3,False,False,2025-12-04,2026-02-15
+421,48,CAM00048,Q00421,La farmacia quiere realizar pedido,S,1. Visita,4,False,False,2025-12-04,2026-01-01
+422,49,CAM00049,Q00422,Indica tiempo de la formación (en min),N,1. Visita,1,False,True,2025-10-04,2026-03-24
+423,49,CAM00049,Q00423,OBSERV VISITA,T,1.Info,2,False,True,2025-10-04,2026-02-10
+424,49,CAM00049,Q00424,"En caso de hacer una mejora en Gaviscon, indícalo",M,2. Visibilidad,3,False,True,2025-10-04,2025-12-15
+425,49,CAM00049,Q00425,Indica el nº de facings de Reflex Gel,S,2. Visibilidad,4,True,True,2025-10-04,2026-04-16
+426,49,CAM00049,Q00426,Indica el nº de facings de Gavidigest,,2. Visibilidad,5,False,False,2025-10-04,2026-03-11
+427,49,CAM00049,Q00427,Indica el nº de facings de Reflex Spray,S,2. Visibilidad,6,False,False,2025-10-04,2026-05-01
+428,49,CAM00049,Q00428,Indica tipo de visita,S,1. Visita,7,True,False,2025-10-04,2026-03-25
+429,49,CAM00049,Q00429,Cargo de la persona formada,S,1. Visita,8,True,True,2025-10-04,2025-10-19
+430,50,CAM00050,Q00430,Indica tiempo de la visita (en min),N,1. Visita,1,False,False,2026-02-06,2026-03-11
+431,50,CAM00050,Q00431,HORARIO,T,,2,True,False,2026-02-06,2025-10-02
+432,50,CAM00050,Q00432,Núm. Total de trabajadores de farmacia,N,1. Visita,3,True,False,2026-02-06,2025-10-19
+433,50,CAM00050,Q00433,Indica el nº de facings de Reflex Spray,S,2. Visibilidad,4,False,False,2026-02-06,2025-10-23
+434,51,CAM00051,Q00434,OBSERV VISITA,T,1.Info,1,False,False,2026-01-27,2025-11-06
+435,51,CAM00051,Q00435,Indica el nº de facings de Gaviscon,S,2. Visibilidad,2,True,False,2026-01-27,2026-02-20
+436,51,CAM00051,Q00436,Indica el nº de facings de Nurofen,S,,3,False,False,2026-01-27,2026-02-18
+437,51,CAM00051,Q00437,CONTACTO VISITA,T,1.Info,4,False,True,2026-01-27,2026-01-14
+438,51,CAM00051,Q00438,Resultado de la visita,S,2.Visita,5,False,False,2026-01-27,2025-12-04
+439,51,CAM00051,Q00439,Indica tipo de visita,S,1. Visita,6,True,False,2026-01-27,2026-01-27
+440,51,CAM00051,Q00440,Indica el nº de facings de Gavidigest,S,2. Visibilidad,7,True,False,2026-01-27,2025-10-26
+441,51,CAM00051,Q00441,Indica tiempo de la visita (en min),N,1. Visita,8,False,True,2026-01-27,2026-03-21
+442,52,CAM00052,Q00442,Núm. de personas formadas,N,1. Visita,1,False,True,2025-11-27,2025-12-20
+443,52,CAM00052,Q00443,Cargo de la persona formada,S,1. Visita,2,False,False,2025-11-27,2026-01-01
+444,52,CAM00052,Q00444,Nombre de la persona formada,T,1. Visita,3,False,False,2025-11-27,2025-12-31
+445,52,CAM00052,Q00445,"En caso de hacer una mejora en Gaviscon, indícalo",M,2. Visibilidad,4,False,False,2025-11-27,2026-03-05
+446,52,CAM00052,Q00446,Resultado de la formación,S,1. Visita,5,False,False,2025-11-27,2026-03-10
+447,52,CAM00052,Q00447,Indica tiempo de la formación (en min),N,,6,True,False,2025-11-27,2026-02-26
+448,52,CAM00052,Q00448,Que producto en concreto?,T,1. Visita,,False,False,2025-11-27,2026-02-16
+449,52,CAM00052,Q00449,Indica el nº de facings de Gavidigest,S,2. Visibilidad,8,False,True,2025-11-27,2026-04-16
+450,52,CAM00052,Q00450,Indica el nº de facings de Gaviscon,S,2. Visibilidad,9,True,False,2025-11-27,2026-01-02
+451,52,CAM00052,Q00451,,S,2.Visita,10,False,False,2025-11-27,2025-11-05
+452,52,CAM00052,Q00452,CONTACTO VISITA,T,1.Info,11,False,False,2025-11-27,2026-04-06
+453,52,CAM00052,Q00453,Indica de qué marca,M,1. Visita,12,False,True,2025-11-27,2025-10-17
+454,52,CAM00052,Q00454,"En caso de hacer una mejora en Nurofen, indícalo",M,,13,False,False,2025-11-27,2026-04-21
+455,52,CAM00052,Q00455,Resultado de la visita,S,2.Visita,14,True,False,2025-11-27,2025-12-22
+456,53,CAM00053,Q00456,¿Se ha realizado toda la instalación del vinilo a medida?,S,2.Visita,1,False,False,2025-11-25,2026-01-05
+457,53,CAM00053,Q00457,Indica el nº de facings de Reflex Gel,S,2. Visibilidad,2,False,False,2025-11-25,2025-11-27
+458,53,CAM00053,Q00458,"En caso de hacer una mejora en Strepsils/Strefen, indícalo",M,2. Visibilidad,3,False,False,2025-11-25,2025-10-02
+459,53,CAM00053,Q00459,Núm. Total de trabajadores de farmacia,N,1. Visita,4,True,False,2025-11-25,2026-03-14
+460,53,CAM00053,Q00460,CONTACTO VISITA,T,1.Info,5,False,False,2025-11-25,2026-04-02
+461,54,CAM00054,Q00461,Resultado de la visita,S,2.Visita,1,False,True,2026-01-07,2026-03-01
+462,54,CAM00054,Q00462,Núm. de personas formadas,N,,2,True,True,2026-01-07,2026-02-24
+463,54,CAM00054,Q00463,Indica el nº de facings de Strepsils/Strefen,S,2. Visibilidad,3,True,False,2026-01-07,2025-11-07
+464,54,CAM00054,Q00464,HORARIO,T,1.Info,4,False,False,2026-01-07,2026-02-22
+465,54,CAM00054,Q00465,,T,1. Visita,5,False,True,2026-01-07,2025-11-25
+466,55,CAM00055,Q00466,"En caso de hacer una mejora en Gaviscon, indícalo",M,2. Visibilidad,1,True,True,2025-12-16,2026-01-05
+467,55,CAM00055,Q00467,Indica el nº de facings de Gavidigest,S,,2,False,True,2025-12-16,2026-03-05
+468,55,CAM00055,Q00468,OBSERV VISITA,T,1.Info,3,True,False,2025-12-16,2026-02-06
+469,55,CAM00055,Q00469,Indica tiempo de la visita (en min),N,1. Visita,4,False,False,2025-12-16,2026-02-16
+470,55,CAM00055,,Núm. de personas formadas,N,1. Visita,5,False,False,2025-12-16,2025-10-12
+471,55,CAM00055,Q00471,Indica el nº de facings de Strepsils/Strefen,S,2. Visibilidad,6,False,False,2025-12-16,2026-02-28
+472,55,CAM00055,Q00472,HORARIO,T,1.Info,7,False,True,2025-12-16,2025-12-05
+473,55,CAM00055,Q00473,La farmacia quiere realizar pedido,S,1. Visita,8,False,False,2025-12-16,2025-11-18
+474,55,CAM00055,,¿Se ha realizado toda la instalación del vinilo a medida?,S,,9,True,False,2025-12-16,2025-10-02
+475,55,CAM00055,Q00475,Indica el nº de facings de Reflex Gel,S,2. Visibilidad,10,False,False,2025-12-16,2025-10-28
+476,55,CAM00055,Q00476,Núm. Total de trabajadores de farmacia,N,1. Visita,11,False,False,2025-12-16,2026-01-17
+477,56,CAM00056,Q00477,Indica de qué marca,M,1. Visita,1,False,False,2025-11-28,2026-01-10
+478,56,CAM00056,Q00478,"En caso de hacer una mejora en Gaviscon, indícalo",M,2. Visibilidad,2,False,False,2025-11-28,2026-04-19
+479,56,CAM00056,Q00479,Núm. Total de trabajadores de farmacia,N,1. Visita,3,False,False,2025-11-28,2026-04-24
+480,56,CAM00056,Q00480,Resultado de la visita,S,2.Visita,4,True,True,2025-11-28,2026-01-08
+481,56,CAM00056,Q00481,,S,2. Visibilidad,5,False,True,2025-11-28,2025-10-17
+482,56,CAM00056,Q00482,Indica tiempo de la formación (en min),N,1. Visita,6,True,False,2025-11-28,2026-01-07
+483,56,CAM00056,Q00483,Indica el nº de facings de Strepsils/Strefen,S,2. Visibilidad,7,True,True,2025-11-28,2026-03-13
+484,56,CAM00056,Q00484,Indica el nº de facings de Reflex Spray,,2. Visibilidad,8,False,True,2025-11-28,2025-10-09
+485,56,CAM00056,Q00485,"En caso de hacer una mejora en Nurofen, indícalo",M,2. Visibilidad,9,False,False,2025-11-28,2025-10-10
+486,56,CAM00056,Q00486,Indica el nº de facings de Gavidigest,S,,10,True,False,2025-11-28,2026-04-18
+487,56,CAM00056,Q00487,Indica tiempo de la visita (en min),N,1. Visita,11,False,False,2025-11-28,2025-10-04
+488,56,CAM00056,Q00488,Indica el nº de facings de Reflex Gel,S,2. Visibilidad,12,False,False,2025-11-28,2026-05-01
+489,56,CAM00056,Q00489,CONTACTO VISITA,T,1.Info,13,False,False,2025-11-28,2025-11-19
+490,57,CAM00057,Q00490,Indica el nº de facings de Nurofen,S,2. Visibilidad,1,False,False,2025-11-21,2026-01-22
+491,57,CAM00057,Q00491,"En caso de hacer una mejora en Nurofen, indícalo",M,2. Visibilidad,2,False,False,2025-11-21,2026-03-24
+492,57,CAM00057,Q00492,Indica tipo de visita,,1. Visita,3,False,True,2025-11-21,2026-01-06
+493,57,CAM00057,Q00493,Núm. Total de trabajadores de farmacia,N,1. Visita,4,False,False,2025-11-21,2025-12-30
+494,57,CAM00057,Q00494,Indica tiempo de la visita (en min),,1. Visita,5,False,False,2025-11-21,2025-10-24
+495,57,CAM00057,Q00495,Indica el nº de facings de Strepsils/Strefen,S,2. Visibilidad,6,False,False,2025-11-21,2025-12-20
+496,57,CAM00057,Q00496,Indica el nº de facings de Reflex Gel,S,2. Visibilidad,7,False,False,2025-11-21,2026-04-07
+497,57,CAM00057,Q00497,Cargo de la persona formada,S,1. Visita,8,False,True,2025-11-21,2025-11-21
+498,57,CAM00057,Q00498,Indica el nº de facings de Reflex Spray,S,2. Visibilidad,9,True,True,2025-11-21,2025-10-21
+499,57,CAM00057,Q00499,Resultado de la formación,S,1. Visita,,True,False,2025-11-21,2026-01-04
+500,57,CAM00057,Q00500,Nombre de la persona formada,T,1. Visita,11,False,True,2025-11-21,2026-04-14
+501,58,CAM00058,Q00501,Núm. Total de trabajadores de farmacia,N,1. Visita,1,False,False,2026-02-08,2026-03-26
+502,58,CAM00058,,,S,2. Visibilidad,2,True,False,2026-02-08,2026-01-01
+503,58,CAM00058,Q00503,Núm. de personas formadas,N,1. Visita,3,False,False,2026-02-08,2026-01-29
+504,58,CAM00058,Q00504,"En caso de hacer una mejora en Nurofen, indícalo",M,2. Visibilidad,4,False,True,2026-02-08,2026-01-16
+505,58,CAM00058,Q00505,La farmacia quiere realizar pedido,S,1. Visita,5,False,False,2026-02-08,2025-11-16
+506,58,CAM00058,Q00506,Tipo de farmacia,S,1. Visita,6,True,False,2026-02-08,2025-12-09
+507,58,CAM00058,Q00507,Indica el nº de facings de Reflex Gel,S,2. Visibilidad,7,False,False,2026-02-08,2025-11-08
+508,58,CAM00058,Q00508,,S,2. Visibilidad,8,False,False,2026-02-08,2026-02-10
+509,58,CAM00058,Q00509,Indica el nº de facings de Gavidigest,S,2. Visibilidad,9,False,False,2026-02-08,2026-02-23
+510,58,CAM00058,,"En caso de hacer una mejora en Strepsils/Strefen, indícalo",M,2. Visibilidad,10,True,True,2026-02-08,2026-04-27
+511,58,CAM00058,Q00511,Indica de qué marca,M,1. Visita,11,False,False,2026-02-08,2026-01-01
+512,58,CAM00058,Q00512,Indica tiempo de la formación (en min),N,1. Visita,12,True,False,2026-02-08,2025-11-01
+513,59,CAM00059,Q00513,Resultado de la visita,S,2.Visita,1,False,True,2026-02-05,2026-01-06
+514,59,CAM00059,Q00514,"En caso de hacer una mejora en Gaviscon, indícalo",M,2. Visibilidad,2,False,False,2026-02-05,2026-04-25
+515,59,CAM00059,Q00515,Indica tiempo de la formación (en min),N,1. Visita,3,False,True,2026-02-05,2025-10-21
+516,59,CAM00059,Q00516,"En caso de hacer una mejora en Nurofen, indícalo",M,2. Visibilidad,4,False,False,2026-02-05,2025-12-08
+517,59,CAM00059,Q00517,¿Se ha realizado toda la instalación del vinilo a medida?,S,2.Visita,5,False,False,2026-02-05,2026-02-28
+518,59,CAM00059,Q00518,"En caso de hacer una mejora en Strepsils/Strefen, indícalo",M,2. Visibilidad,6,True,True,2026-02-05,2026-04-05
+519,59,CAM00059,Q00519,Indica el nº de facings de Reflex Spray,S,2. Visibilidad,7,True,True,2026-02-05,2025-11-12
+520,59,CAM00059,Q00520,Indica tiempo de la visita (en min),N,1. Visita,8,True,True,2026-02-05,2026-04-16
+521,59,CAM00059,Q00521,Nombre de la persona formada,T,1. Visita,9,False,False,2026-02-05,2025-11-09
+522,60,CAM00060,Q00522,"En caso de hacer una mejora en Strepsils/Strefen, indícalo",M,2. Visibilidad,1,False,True,2025-11-15,2025-10-09
+523,60,CAM00060,Q00523,Indica el nº de facings de Nurofen,S,2. Visibilidad,2,False,False,2025-11-15,2026-01-22
+524,60,CAM00060,Q00524,Nombre de la persona formada,T,1. Visita,3,False,False,2025-11-15,2026-04-10
+525,60,CAM00060,Q00525,Núm. de personas formadas,N,1. Visita,4,False,False,2025-11-15,2026-02-01
+526,60,CAM00060,Q00526,CONTACTO VISITA,T,1.Info,5,False,False,2025-11-15,2025-12-06
+527,61,CAM00061,Q00527,Nombre de la persona formada,T,,1,False,False,2025-12-24,2025-12-16
+528,61,CAM00061,,Indica tipo de visita,S,1. Visita,2,False,True,2025-12-24,2026-02-18
+529,61,CAM00061,Q00529,OBSERV VISITA,T,1.Info,3,False,True,2025-12-24,2025-11-11
+530,61,CAM00061,Q00530,Indica el nº de facings de Reflex Gel,S,2. Visibilidad,4,False,False,2025-12-24,2025-10-21
+531,61,CAM00061,Q00531,La farmacia quiere realizar pedido,S,1. Visita,5,False,False,2025-12-24,2026-03-16
+532,61,CAM00061,Q00532,Indica de qué marca,M,1. Visita,6,True,True,2025-12-24,2025-11-04
+533,62,CAM00062,Q00533,Cargo de la persona formada,,1. Visita,1,True,True,2025-10-24,2025-10-27
+534,62,CAM00062,Q00534,"En caso de hacer una mejora en Strepsils/Strefen, indícalo",M,2. Visibilidad,2,True,True,2025-10-24,2025-10-24
+535,62,CAM00062,Q00535,,S,2. Visibilidad,3,False,False,2025-10-24,2026-04-20
+536,62,CAM00062,Q00536,"En caso de hacer una mejora en Gaviscon, indícalo",M,2. Visibilidad,,False,True,2025-10-24,2026-04-11
+537,62,CAM00062,Q00537,CONTACTO VISITA,T,1.Info,5,True,False,2025-10-24,2026-01-29
+538,62,CAM00062,Q00538,Núm. Total de trabajadores de farmacia,N,1. Visita,,True,False,2025-10-24,2025-12-03
+539,62,CAM00062,Q00539,¿Se ha realizado toda la instalación del vinilo a medida?,S,2.Visita,7,True,True,2025-10-24,2026-01-26
+540,62,CAM00062,Q00540,Indica el nº de facings de Gavidigest,S,2. Visibilidad,8,False,False,2025-10-24,2026-01-08
+541,63,CAM00063,Q00541,Nombre de la persona formada,T,1. Visita,1,False,False,2026-01-16,2025-10-04
+542,63,CAM00063,Q00542,Que producto en concreto?,T,1. Visita,2,False,True,2026-01-16,2025-10-11
+543,63,CAM00063,Q00543,Indica tiempo de la visita (en min),N,1. Visita,3,False,False,2026-01-16,2026-04-16
+544,63,CAM00063,Q00544,"En caso de hacer una mejora en Strepsils/Strefen, indícalo",M,2. Visibilidad,4,False,False,2026-01-16,2025-10-16
+545,63,CAM00063,Q00545,Tipo de farmacia,S,1. Visita,5,True,True,2026-01-16,2026-02-02
+546,63,CAM00063,Q00546,Indica el nº de facings de Reflex Spray,S,2. Visibilidad,6,False,False,2026-01-16,2026-04-06
+547,63,CAM00063,Q00547,,S,2. Visibilidad,7,False,False,2026-01-16,2025-10-11
+548,63,CAM00063,Q00548,Cargo de la persona formada,S,1. Visita,8,False,True,2026-01-16,2026-02-23
+549,63,CAM00063,Q00549,Núm. Total de trabajadores de farmacia,N,1. Visita,9,False,False,2026-01-16,2026-05-01
+550,63,CAM00063,Q00550,Indica el nº de facings de Gavidigest,S,2. Visibilidad,10,False,False,2026-01-16,2025-12-15
+551,63,CAM00063,Q00551,HORARIO,T,1.Info,,False,False,2026-01-16,2025-11-17
+552,63,CAM00063,,"En caso de hacer una mejora en Nurofen, indícalo",M,2. Visibilidad,12,False,False,2026-01-16,2026-04-03
+553,63,CAM00063,Q00553,CONTACTO VISITA,T,1.Info,13,False,False,2026-01-16,2025-11-09
+554,63,CAM00063,Q00554,Indica tipo de visita,S,1. Visita,14,False,True,2026-01-16,2025-10-25
+555,64,CAM00064,Q00555,Resultado de la visita,S,2.Visita,1,False,True,2025-12-15,2026-01-02
+556,64,CAM00064,Q00556,Resultado de la formación,S,1. Visita,,False,False,2025-12-15,2026-02-03
+557,64,CAM00064,Q00557,Tipo de farmacia,S,,3,False,False,2025-12-15,2026-04-22
+558,64,CAM00064,Q00558,La farmacia quiere realizar pedido,S,1. Visita,4,True,False,2025-12-15,2025-10-19
+559,64,CAM00064,Q00559,Indica tiempo de la visita (en min),N,1. Visita,5,True,False,2025-12-15,2025-11-29
+560,64,CAM00064,Q00560,CONTACTO VISITA,T,1.Info,6,False,False,2025-12-15,2026-03-10
+561,64,CAM00064,Q00561,Indica tiempo de la formación (en min),N,1. Visita,7,True,False,2025-12-15,2026-02-25
+562,64,CAM00064,Q00562,Cargo de la persona formada,S,1. Visita,8,False,True,2025-12-15,2025-11-12
+563,64,CAM00064,Q00563,Indica el nº de facings de Gavidigest,S,2. Visibilidad,9,False,False,2025-12-15,2026-03-03
+564,64,CAM00064,Q00564,"En caso de hacer una mejora en Gaviscon, indícalo",M,2. Visibilidad,10,False,False,2025-12-15,2026-04-14
+565,64,CAM00064,Q00565,"En caso de hacer una mejora en Nurofen, indícalo",M,2. Visibilidad,11,False,False,2025-12-15,2026-02-17
+566,64,CAM00064,Q00566,Indica tipo de visita,S,1. Visita,12,False,False,2025-12-15,2026-01-24
+567,65,CAM00065,Q00567,Indica el nº de facings de Nurofen,S,2. Visibilidad,,False,False,2025-10-01,2026-02-08
+568,65,CAM00065,Q00568,Indica tipo de visita,S,1. Visita,2,True,False,2025-10-01,2025-12-31
+569,65,CAM00065,Q00569,CONTACTO VISITA,T,1.Info,3,False,True,2025-10-01,2025-12-05
+570,65,CAM00065,Q00570,Tipo de farmacia,S,1. Visita,4,False,False,2025-10-01,2025-10-20
+571,65,CAM00065,Q00571,Nombre de la persona formada,T,1. Visita,5,True,False,2025-10-01,2026-03-14
+572,65,CAM00065,Q00572,"En caso de hacer una mejora en Gaviscon, indícalo",M,2. Visibilidad,6,True,True,2025-10-01,2026-04-16
+573,65,CAM00065,Q00573,OBSERV VISITA,T,1.Info,7,False,False,2025-10-01,2026-03-17
+574,65,CAM00065,Q00574,,S,2. Visibilidad,8,False,True,2025-10-01,2025-12-18
+575,65,CAM00065,Q00575,La farmacia quiere realizar pedido,S,1. Visita,9,False,False,2025-10-01,2026-02-06
+576,65,CAM00065,Q00576,Resultado de la visita,S,,10,False,False,2025-10-01,2026-04-11
+577,65,CAM00065,Q00577,"En caso de hacer una mejora en Strepsils/Strefen, indícalo",M,2. Visibilidad,11,False,False,2025-10-01,2026-04-20
+578,66,CAM00066,Q00578,La farmacia quiere realizar pedido,S,1. Visita,1,False,True,2026-01-12,2026-02-01
+579,66,CAM00066,Q00579,HORARIO,T,1.Info,2,False,False,2026-01-12,2026-03-07
+580,66,CAM00066,Q00580,Que producto en concreto?,T,1. Visita,3,False,False,2026-01-12,2025-12-22
+581,66,CAM00066,Q00581,Resultado de la formación,S,1. Visita,4,False,False,2026-01-12,2026-01-02
+582,66,CAM00066,Q00582,Indica el nº de facings de Gavidigest,S,2. Visibilidad,5,True,False,2026-01-12,2025-11-13
+583,66,CAM00066,Q00583,"En caso de hacer una mejora en Nurofen, indícalo",M,2. Visibilidad,6,False,True,2026-01-12,2026-04-28
+584,66,CAM00066,Q00584,Tipo de farmacia,S,1. Visita,7,True,True,2026-01-12,2026-04-08
+585,66,CAM00066,,Indica el nº de facings de Reflex Spray,S,2. Visibilidad,8,True,False,2026-01-12,2026-03-27
+586,66,CAM00066,Q00586,Indica el nº de facings de Nurofen,S,2. Visibilidad,,False,True,2026-01-12,2026-04-08
+587,66,CAM00066,Q00587,Núm. Total de trabajadores de farmacia,N,1. Visita,10,False,False,2026-01-12,2026-02-01
+588,67,CAM00067,Q00588,CONTACTO VISITA,T,1.Info,1,True,False,2025-12-20,2026-03-17
+589,67,CAM00067,,La farmacia quiere realizar pedido,S,1. Visita,2,False,True,2025-12-20,2025-10-05
+590,67,CAM00067,Q00590,¿Se ha realizado toda la instalación del vinilo a medida?,S,2.Visita,3,True,False,2025-12-20,2026-02-02
+591,67,CAM00067,Q00591,HORARIO,T,1.Info,4,False,False,2025-12-20,2026-04-01
+592,67,CAM00067,,Resultado de la visita,S,2.Visita,5,False,False,2025-12-20,2026-01-09
+593,67,CAM00067,Q00593,Indica tipo de visita,,1. Visita,6,False,False,2025-12-20,2026-03-10
+594,67,CAM00067,Q00594,Indica el nº de facings de Nurofen,S,2. Visibilidad,7,False,False,2025-12-20,2026-04-27
+595,67,CAM00067,,"En caso de hacer una mejora en Nurofen, indícalo",M,2. Visibilidad,8,False,False,2025-12-20,2026-03-18
+596,67,CAM00067,Q00596,Indica el nº de facings de Reflex Gel,S,2. Visibilidad,9,False,False,2025-12-20,2025-12-01
+597,67,CAM00067,Q00597,Tipo de farmacia,S,1. Visita,10,False,False,2025-12-20,2026-02-16
+598,67,CAM00067,Q00598,Núm. Total de trabajadores de farmacia,N,1. Visita,11,False,True,2025-12-20,2025-12-19
+599,67,CAM00067,Q00599,Resultado de la formación,S,1. Visita,12,False,False,2025-12-20,2026-02-22
+600,67,CAM00067,Q00600,"En caso de hacer una mejora en Strepsils/Strefen, indícalo",M,2. Visibilidad,13,True,True,2025-12-20,2025-12-21
+601,68,CAM00068,Q00601,CONTACTO VISITA,T,1.Info,1,False,True,2026-02-08,2025-10-28
+602,68,CAM00068,Q00602,Indica tipo de visita,,1. Visita,2,False,False,2026-02-08,2026-02-23
+603,68,CAM00068,Q00603,Que producto en concreto?,T,1. Visita,3,True,False,2026-02-08,2025-10-21
+604,68,CAM00068,Q00604,Indica el nº de facings de Strepsils/Strefen,S,2. Visibilidad,4,False,False,2026-02-08,2026-03-16
+605,68,CAM00068,Q00605,¿Se ha realizado toda la instalación del vinilo a medida?,S,2.Visita,5,False,True,2026-02-08,2025-11-19
+606,68,CAM00068,Q00606,Nombre de la persona formada,T,1. Visita,,False,False,2026-02-08,2025-11-26
+607,69,CAM00069,,Indica tiempo de la formación (en min),N,1. Visita,1,False,False,2025-09-26,2026-03-06
+608,69,CAM00069,Q00608,OBSERV VISITA,T,1.Info,2,True,False,2025-09-26,2025-10-28
+609,69,CAM00069,Q00609,HORARIO,T,1.Info,3,False,False,2025-09-26,2025-10-11
+610,69,CAM00069,Q00610,Resultado de la formación,S,1. Visita,4,True,True,2025-09-26,2025-12-14
+611,69,CAM00069,Q00611,Indica tiempo de la visita (en min),N,1. Visita,5,False,True,2025-09-26,2026-01-17
+612,69,CAM00069,Q00612,Indica el nº de facings de Gaviscon,S,2. Visibilidad,6,False,False,2025-09-26,2026-05-01
+613,69,CAM00069,Q00613,"En caso de hacer una mejora en Gaviscon, indícalo",M,2. Visibilidad,7,True,True,2025-09-26,2026-04-18
+614,69,CAM00069,Q00614,Indica el nº de facings de Gavidigest,S,2. Visibilidad,8,False,False,2025-09-26,2026-01-24
+615,69,CAM00069,,Que producto en concreto?,T,1. Visita,9,False,False,2025-09-26,2025-10-24
+616,69,CAM00069,Q00616,"En caso de hacer una mejora en Strepsils/Strefen, indícalo",M,2. Visibilidad,10,False,False,2025-09-26,2026-04-06
+617,69,CAM00069,Q00617,Núm. de personas formadas,N,1. Visita,11,False,True,2025-09-26,2026-02-12
+618,69,CAM00069,Q00618,CONTACTO VISITA,T,1.Info,12,False,False,2025-09-26,2026-02-18
+619,69,CAM00069,Q00619,Indica el nº de facings de Reflex Gel,S,2. Visibilidad,13,False,True,2025-09-26,2025-11-07
+620,69,CAM00069,Q00620,Indica el nº de facings de Nurofen,S,,14,False,False,2025-09-26,2026-04-05
+621,70,CAM00070,Q00621,Nombre de la persona formada,,1. Visita,1,False,True,2025-11-05,2026-02-28
+622,70,CAM00070,Q00622,"En caso de hacer una mejora en Strepsils/Strefen, indícalo",M,2. Visibilidad,2,True,False,2025-11-05,2026-03-03
+623,70,CAM00070,,Indica tiempo de la visita (en min),N,1. Visita,3,False,True,2025-11-05,2025-11-17
+624,70,CAM00070,Q00624,Cargo de la persona formada,S,1. Visita,,False,True,2025-11-05,2026-03-20
+625,70,CAM00070,Q00625,La farmacia quiere realizar pedido,S,1. Visita,5,True,True,2025-11-05,2026-01-15
+626,70,CAM00070,Q00626,Indica tiempo de la formación (en min),N,1. Visita,6,False,False,2025-11-05,2026-04-10
+627,70,CAM00070,Q00627,Indica tipo de visita,,1. Visita,7,False,False,2025-11-05,2026-01-03
+628,70,CAM00070,Q00628,Núm. Total de trabajadores de farmacia,N,1. Visita,8,True,False,2025-11-05,2026-01-29
+629,70,CAM00070,Q00629,"En caso de hacer una mejora en Gaviscon, indícalo",M,2. Visibilidad,9,False,False,2025-11-05,2025-11-23
+630,70,CAM00070,Q00630,Indica el nº de facings de Gaviscon,S,,10,True,False,2025-11-05,2026-04-04
+631,70,CAM00070,Q00631,Indica el nº de facings de Gavidigest,S,2. Visibilidad,11,False,False,2025-11-05,2026-02-12
+632,71,CAM00071,Q00632,,M,,1,True,False,2025-09-28,2025-11-23
+633,71,CAM00071,Q00633,Indica de qué marca,M,,2,False,False,2025-09-28,2026-04-25
+634,71,CAM00071,Q00634,La farmacia quiere realizar pedido,,1. Visita,3,False,False,2025-09-28,2026-04-21
+635,71,CAM00071,Q00635,HORARIO,T,1.Info,4,False,True,2025-09-28,2025-10-30
+636,71,CAM00071,Q00636,"En caso de hacer una mejora en Nurofen, indícalo",M,2. Visibilidad,5,True,True,2025-09-28,2025-11-19
+637,71,CAM00071,Q00637,Indica el nº de facings de Gavidigest,S,2. Visibilidad,6,True,False,2025-09-28,2025-11-04
+638,71,CAM00071,Q00638,Indica el nº de facings de Reflex Gel,S,2. Visibilidad,7,False,False,2025-09-28,2026-04-19
+639,71,CAM00071,Q00639,"En caso de hacer una mejora en Strepsils/Strefen, indícalo",M,2. Visibilidad,8,False,False,2025-09-28,2026-02-15
+640,71,CAM00071,,Resultado de la visita,S,2.Visita,9,False,True,2025-09-28,2025-11-08
+641,71,CAM00071,Q00641,Indica tiempo de la visita (en min),N,1. Visita,10,False,False,2025-09-28,2026-03-05
+642,71,CAM00071,Q00642,Núm. de personas formadas,N,1. Visita,11,False,False,2025-09-28,2025-12-20
+643,71,CAM00071,Q00643,OBSERV VISITA,T,1.Info,12,False,True,2025-09-28,2026-01-04
+644,71,CAM00071,Q00644,CONTACTO VISITA,T,1.Info,13,False,True,2025-09-28,2026-01-04
+645,72,CAM00072,Q00645,OBSERV VISITA,T,1.Info,1,False,False,2025-10-07,2026-02-01
+646,72,CAM00072,Q00646,Indica tiempo de la formación (en min),N,1. Visita,2,False,True,2025-10-07,2026-04-29
+647,72,CAM00072,Q00647,Resultado de la formación,S,1. Visita,3,True,False,2025-10-07,2026-01-08
+648,72,CAM00072,Q00648,Indica el nº de facings de Gaviscon,S,,4,True,False,2025-10-07,2026-03-02

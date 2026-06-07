@@ -1,0 +1,20 @@
+name: 'data_technical_test'
+version: '1.0.0'
+config-version: 2
+
+# This connects the project to the profile defined in profiles.yml
+profile: 'data_technical_test_profile'
+
+# Define where dbt will look for each type of file
+model-paths: ["models"]
+seed-paths: ["seeds"]
+test-paths: ["tests"]
+macro-paths: ["macros"]
+
+# Configuration for how models will be materialized in DuckDB
+models:
+  data_technical_test:
+    staging:
+      +materialized: view # Staging models are created as views for faster execution
+    marts:
+      +materialized: table # Final mart models are saved as physical tables

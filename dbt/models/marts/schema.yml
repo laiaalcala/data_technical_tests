@@ -1,0 +1,22 @@
+version: 2
+
+models:
+  - name: mart_campaign_performance
+    columns:
+      - name: campaign_id
+        tests:
+          - unique
+          - not_null
+
+  - name: mart_visit_responses
+    columns:
+      - name: answer_id
+        tests:
+          - unique
+          - not_null
+      - name: visit_id
+        tests:
+          - not_null
+      - name: question_id
+        tests:
+          - not_null

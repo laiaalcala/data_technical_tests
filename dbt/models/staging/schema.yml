@@ -1,0 +1,57 @@
+version: 2
+
+models:
+  - name: stg_responses
+    columns:
+      - name: answer_id
+        tests:
+          - unique
+          - not_null
+      - name: visit_id
+        tests:
+          - not_null
+          - relationships:
+              to: ref('stg_visits')
+              field: visit_id
+      - name: question_id
+        tests:
+          - not_null
+          - relationships:
+              to: ref('stg_questions')
+              field: question_id
+
+  - name: stg_visits
+    columns:
+      - name: visit_id
+        tests:
+          - unique
+          - not_null
+      - name: campaign_id
+        tests:
+          - not_null
+          - relationships:
+              to: ref('stg_campaigns')
+              field: campaign_id
+
+  - name: stg_route_employee
+    columns:
+      - name: route_id
+        tests:
+          - not_null
+          - relationships:
+              to: ref('stg_routes')
+              field: route_id
+      - name: employee_id
+        tests:
+          - not_null
+          - relationships:
+              to: ref('stg_workers')
+              field: employee_id
+  - name: stg_dates
+    description: "Calendar dimension for time-series analysis and custom times aggregations."
+    columns:
+      - name: date_id
+        description: "Format YYYY-MM-DD."
+        tests:
+          - unique
+          - not_null

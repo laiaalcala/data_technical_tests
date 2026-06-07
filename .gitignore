@@ -1,0 +1,4 @@
+target/
+logs/
+dbt_local.db
+.DS_Store

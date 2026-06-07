@@ -1,0 +1,73 @@
+campaign_id,campaign_start_date,campaign_end_date,total_visits_planned,client_id,client_name,sector,project_id,project_name,total_visits,successful_visits,incident_visits,informational_visits,cancelled_visits,billable_visits,completion_rate_percentage
+66,2026-02-04,2026-04-04,400,13,Vitahealth España,Farma,25,Proyecto Mantenimiento 25,48,1,33,7,4,32,12.0
+50,2026-02-19,2026-03-24,386,11,Salutem Laboratorios,Farma,20,Proyecto Formación 20,46,3,34,8,0,30,11.92
+12,2026-01-14,2026-02-19,379,5,Salutis Consumer España,Farma,7,Proyecto Sell-In 7,45,1,32,5,2,28,11.87
+2,2026-01-11,2026-02-25,376,1,Laboratorios Valtera España,Farma,1,Proyecto Mantenimiento 1,45,3,32,6,3,29,11.97
+56,2025-12-13,2026-03-11,375,12,Eurofarma Iberia,Farma,22,Proyecto Visibilidad 22,45,1,33,4,2,30,12.0
+58,2026-02-27,2026-05-04,366,12,Eurofarma Iberia,Farma,23,Proyecto Mantenimiento 23,44,0,28,11,4,24,12.02
+18,2026-01-28,2026-06-20,359,5,Salutis Consumer España,Farma,9,Proyecto Auditoria 9,43,2,31,6,3,25,11.98
+33,2025-12-22,2026-03-24,362,7,Dermocare Iberia,Farma,15,Proyecto Auditoria 15,43,5,34,1,1,28,11.88
+47,2026-01-13,2026-05-08,359,10,Clinipharma España,Farma,19,Proyecto Mantenimiento 19,43,4,23,12,4,30,11.98
+61,2025-12-30,2026-03-26,350,12,Eurofarma Iberia,Farma,23,Proyecto Mantenimiento 23,42,3,32,6,1,19,12.0
+54,2026-02-06,2026-05-31,355,12,Eurofarma Iberia,Farma,21,Proyecto Visibilidad 21,42,3,24,10,4,32,11.83
+64,2026-01-10,2026-02-12,346,13,Vitahealth España,Farma,24,Proyecto Formación 24,41,1,25,11,4,23,11.85
+49,2025-10-14,2026-01-04,342,11,Salutem Laboratorios,Farma,20,Proyecto Formación 20,41,2,25,7,1,28,11.99
+8,2025-10-28,2026-04-17,344,3,Medicolab Iberia,Farma,5,Proyecto Auditoria 5,41,2,29,6,4,27,11.92
+71,2025-10-17,2026-03-17,334,14,Nexopharma SL,Farma,27,Proyecto Mantenimiento 27,40,3,27,6,4,23,11.98
+14,2026-02-15,2026-06-09,325,5,Salutis Consumer España,Farma,8,Proyecto Visibilidad 8,39,4,24,8,2,24,12.0
+29,2026-01-30,2026-03-30,330,7,Dermocare Iberia,Farma,13,Proyecto Mantenimiento 13,39,1,31,4,2,26,11.82
+46,2026-02-25,2026-04-06,319,10,Clinipharma España,Farma,19,Proyecto Mantenimiento 19,38,1,28,5,2,26,11.91
+37,2025-10-31,2026-04-16,321,8,Novapharma España,Farma,16,Proyecto Formación 16,38,3,21,8,6,24,11.84
+4,2025-10-15,2026-03-24,311,2,Pharmakon Consumer Health,Farma,2,Proyecto Formación 2,37,1,27,8,1,23,11.9
+24,2025-12-24,2026-06-10,314,6,Farmanat Group,Farma,11,Proyecto Visibilidad 11,37,2,23,9,2,23,11.78
+26,2026-01-12,2026-03-25,308,6,Farmanat Group,Farma,12,Proyecto Mantenimiento 12,37,0,28,5,3,26,12.01
+43,2026-01-25,2026-03-14,298,10,Clinipharma España,Farma,18,Proyecto Formación 18,36,2,25,6,3,16,12.08
+52,2025-12-16,2026-06-14,302,11,Salutem Laboratorios,Farma,20,Proyecto Formación 20,36,2,25,5,0,21,11.92
+7,2025-11-10,2026-04-01,303,3,Medicolab Iberia,Farma,5,Proyecto Auditoria 5,36,1,27,7,1,19,11.88
+15,2026-01-20,2026-06-29,295,5,Salutis Consumer España,Farma,8,Proyecto Visibilidad 8,35,2,25,5,2,20,11.86
+60,2025-12-15,2026-01-19,274,12,Eurofarma Iberia,Farma,23,Proyecto Mantenimiento 23,33,2,23,4,3,19,12.04
+25,2026-01-16,2026-07-02,268,6,Farmanat Group,Farma,12,Proyecto Mantenimiento 12,32,3,20,4,3,17,11.94
+32,2025-11-09,2026-03-30,267,7,Dermocare Iberia,Farma,15,Proyecto Auditoria 15,32,0,25,5,1,13,11.99
+21,2025-11-01,2026-03-27,246,6,Farmanat Group,Farma,10,Proyecto Mantenimiento 10,29,0,24,2,2,20,11.79
+67,2026-01-15,2026-03-11,247,13,Vitahealth España,Farma,25,Proyecto Mantenimiento 25,29,1,20,3,3,19,11.74
+40,2026-02-25,2026-04-09,233,9,Aquilea Consumer Health,Parafarmacia,17,Proyecto Formación 17,28,1,21,0,6,20,12.02
+48,2025-12-20,2026-03-24,231,10,Clinipharma España,Farma,19,Proyecto Mantenimiento 19,28,1,19,5,2,20,12.12
+31,2026-02-22,2026-04-03,235,7,Dermocare Iberia,Farma,14,Proyecto Sell-In 14,28,2,19,3,2,19,11.91
+51,2026-02-01,2026-07-01,232,11,Salutem Laboratorios,Farma,20,Proyecto Formación 20,28,1,19,5,1,18,12.07
+65,2025-10-07,2026-03-29,229,13,Vitahealth España,Farma,25,Proyecto Mantenimiento 25,27,3,17,2,3,19,11.79
+16,2025-12-24,2026-04-13,226,5,Salutis Consumer España,Farma,8,Proyecto Visibilidad 8,27,0,18,3,4,18,11.95
+53,2025-12-01,2026-05-26,215,12,Eurofarma Iberia,Farma,21,Proyecto Visibilidad 21,26,0,18,4,2,19,12.09
+27,2025-11-04,2026-04-01,214,6,Farmanat Group,Farma,12,Proyecto Mantenimiento 12,26,2,11,6,6,14,12.15
+5,2026-01-16,2026-07-14,222,2,Pharmakon Consumer Health,Farma,3,Proyecto Visibilidad 3,26,0,16,6,1,16,11.71
+13,2025-11-21,2026-04-17,188,5,Salutis Consumer España,Farma,7,Proyecto Sell-In 7,22,0,15,2,4,9,11.7
+72,2025-10-16,2026-03-17,184,1,Laboratorios Valtera España,Farma,28,Proyecto Formación 28,22,0,14,3,4,15,11.96
+69,2025-10-18,2026-04-07,161,13,Vitahealth España,Farma,26,Proyecto Mantenimiento 26,19,3,13,1,2,13,11.8
+6,2025-10-03,2026-02-27,155,2,Pharmakon Consumer Health,Farma,4,Proyecto Visibilidad 4,18,0,13,2,1,13,11.61
+36,2026-01-30,2026-07-20,148,8,Novapharma España,Farma,16,Proyecto Formación 16,18,0,12,3,3,15,12.16
+59,2026-02-28,2026-06-14,141,12,Eurofarma Iberia,Farma,23,Proyecto Mantenimiento 23,17,3,10,3,1,11,12.06
+1,2025-10-20,2026-03-12,141,1,Laboratorios Valtera España,Farma,1,Proyecto Mantenimiento 1,17,0,11,3,3,12,12.06
+22,2025-11-10,2026-04-10,142,6,Farmanat Group,Farma,10,Proyecto Mantenimiento 10,17,2,7,5,2,11,11.97
+63,2026-02-01,2026-05-17,135,13,Vitahealth España,Farma,24,Proyecto Formación 24,16,1,10,2,1,11,11.85
+35,2026-02-03,2026-07-25,133,7,Dermocare Iberia,Farma,15,Proyecto Auditoria 15,16,0,8,4,2,9,12.03
+45,2026-02-04,2026-06-26,137,10,Clinipharma España,Farma,18,Proyecto Formación 18,16,0,8,4,2,6,11.68
+20,2026-01-07,2026-06-12,110,5,Salutis Consumer España,Farma,9,Proyecto Auditoria 9,13,0,10,2,1,10,11.82
+57,2025-12-15,2026-04-15,109,12,Eurofarma Iberia,Farma,22,Proyecto Visibilidad 22,13,2,7,3,0,7,11.93
+11,2025-10-11,2026-02-09,99,5,Salutis Consumer España,Farma,7,Proyecto Sell-In 7,12,1,7,3,1,9,12.12
+23,2025-12-09,2026-04-03,98,6,Farmanat Group,Farma,11,Proyecto Visibilidad 11,12,1,7,3,1,8,12.24
+41,2026-01-24,2026-06-16,70,9,Aquilea Consumer Health,Parafarmacia,17,Proyecto Formación 17,8,1,7,0,0,4,11.43
+19,2025-12-19,2026-03-16,57,5,Salutis Consumer España,Farma,9,Proyecto Auditoria 9,7,0,4,1,2,6,12.28
+3,2025-11-18,2026-03-03,45,2,Pharmakon Consumer Health,Farma,2,Proyecto Formación 2,5,0,3,1,1,3,11.11
+55,2026-01-10,2026-03-01,38,12,Eurofarma Iberia,Farma,22,Proyecto Visibilidad 22,5,1,3,1,0,3,13.16
+68,2026-02-17,2026-06-18,45,13,Vitahealth España,Farma,25,Proyecto Mantenimiento 25,5,1,2,1,1,2,11.11
+38,2025-11-19,2026-03-04,43,8,Novapharma España,Farma,16,Proyecto Formación 16,5,1,4,0,0,3,11.63
+70,2025-11-14,2026-01-11,28,13,Vitahealth España,Farma,26,Proyecto Mantenimiento 26,3,0,2,1,0,2,10.71
+34,2025-11-16,2026-04-19,25,7,Dermocare Iberia,Farma,15,Proyecto Auditoria 15,3,0,3,0,0,2,12.0
+17,2026-01-16,2026-05-23,20,5,Salutis Consumer España,Farma,8,Proyecto Visibilidad 8,2,0,0,1,1,2,10.0
+44,2025-10-16,2025-12-27,372,10,Clinipharma España,Farma,18,Proyecto Formación 18,0,0,0,0,0,0,0.0
+62,2025-11-03,2025-12-26,207,13,Vitahealth España,Farma,24,Proyecto Formación 24,0,0,0,0,0,0,0.0
+10,2025-10-29,2025-12-17,302,4,Biofarma España SL,Gran Consumo,6,Proyecto Mantenimiento 6,0,0,0,0,0,0,0.0
+28,2025-10-05,2025-09-29,122,6,Farmanat Group,Farma,12,Proyecto Mantenimiento 12,0,0,0,0,0,0,0.0
+42,2025-10-21,2025-12-30,324,9,Aquilea Consumer Health,Parafarmacia,17,Proyecto Formación 17,0,0,0,0,0,0,0.0
+9,2025-10-14,2025-12-06,154,3,Medicolab Iberia,Farma,5,Proyecto Auditoria 5,0,0,0,0,0,0,0.0
+39,2025-10-27,2025-11-29,264,9,Aquilea Consumer Health,Parafarmacia,17,Proyecto Formación 17,0,0,0,0,0,0,0.0
+30,2025-10-28,2025-10-23,373,7,Dermocare Iberia,Farma,13,Proyecto Mantenimiento 13,0,0,0,0,0,0,0.0

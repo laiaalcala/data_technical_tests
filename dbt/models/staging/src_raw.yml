@@ -1,0 +1,29 @@
+version: 2
+
+sources:
+  - name: raw
+    description: "Raw CSV data read directly as external files"
+    meta:
+      # Volvemos a dejar la ruta base limpia
+      external_location: "../data/raw/{identifier}.csv" # <-- Cambiado {name} por {identifier}
+    tables:
+      - name: campaigns
+        identifier: raw_campaigns
+      - name: clients
+        identifier: raw_clients
+      - name: projects
+        identifier: raw_projects
+      - name: questions
+        identifier: raw_questions
+      - name: workers
+        identifier: raw_workers
+      - name: pos
+        identifier: raw_pos
+      - name: routes
+        identifier: raw_routes
+      - name: route_employee
+        identifier: raw_route_employee
+      - name: visits
+        identifier: raw_visits
+      - name: responses
+        identifier: raw_responses

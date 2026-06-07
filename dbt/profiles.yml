@@ -1,0 +1,9 @@
+data_technical_test_profile:
+  target: dev
+  outputs:
+    dev:
+      type: duckdb
+      path: dbt_local.db # Where DuckDB will save the db locally
+      extensions:
+        - httpfs
+        
